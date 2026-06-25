@@ -1,0 +1,18 @@
+[
+  {
+    "id": "unique-role-id",
+    "role": "Role Title",
+    "office": "US|Canada|UK|Poland",
+    "manager": "Hiring Manager Name",
+    "priority": "High|Medium|Low",
+    "pipelineCount": 0,
+    "currentStage": "Applied|Screened|Interview|Final|Offer",
+    "daysOpen": 0,
+    "status": "On Track|Need Attention|Decision Needed",
+    "blocker": "What's slowing it down",
+    "nextAction": "What to do next",
+    "finalists": 0,
+    "openOffers": 0,
+    "decisionNeeded": "Yes|No"
+  }
+]

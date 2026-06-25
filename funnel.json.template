@@ -1,0 +1,45 @@
+{
+  "stages": ["Applied", "Screened", "Interview", "Final", "Offer", "Hired"],
+  "global": {
+    "Applied": 0,
+    "Screened": 0,
+    "Interview": 0,
+    "Final": 0,
+    "Offer": 0,
+    "Hired": 0
+  },
+  "offices": {
+    "US": {
+      "Applied": 0,
+      "Screened": 0,
+      "Interview": 0,
+      "Final": 0,
+      "Offer": 0,
+      "Hired": 0
+    },
+    "Canada": {
+      "Applied": 0,
+      "Screened": 0,
+      "Interview": 0,
+      "Final": 0,
+      "Offer": 0,
+      "Hired": 0
+    },
+    "UK": {
+      "Applied": 0,
+      "Screened": 0,
+      "Interview": 0,
+      "Final": 0,
+      "Offer": 0,
+      "Hired": 0
+    },
+    "Poland": {
+      "Applied": 0,
+      "Screened": 0,
+      "Interview": 0,
+      "Final": 0,
+      "Offer": 0,
+      "Hired": 0
+    }
+  }
+}

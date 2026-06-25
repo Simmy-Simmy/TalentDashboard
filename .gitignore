@@ -1,0 +1,19 @@
+# Real candidate data - NEVER commit
+data-loader.js
+data/candidates.json
+data/roles.json
+data/funnel.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# Node/local env
+node_modules/
+.env
+.env.local

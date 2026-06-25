@@ -1,0 +1,18 @@
+{
+  "ROLE-ID": [
+    {
+      "name": "Candidate Name",
+      "stage": "Applied|Screened|Interview|Final|Offer|Hired",
+      "fitScore": 1-5,
+      "keyStrength": "What they do well",
+      "mainConcern": "What needs attention",
+      "nextStep": "Move forward|Hold|Reject|Need follow-up case|Need leadership input",
+      "tags": ["Tag1", "Tag2"],
+      "decision": "Move forward|Hold|Reject|Need follow-up case|Need leadership input",
+      "variant": "strong|balanced|commercial|leadership",
+      "comment": "Overall assessment note",
+      "testNext": "What to test in next round",
+      "reference": "Where you got this info (e.g. interview date, source)"
+    }
+  ]
+}

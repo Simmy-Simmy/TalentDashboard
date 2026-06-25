@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light only" />
+  <title>ADAPTOVATE Talent Dashboard</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="hero">
+      <div class="eyebrow">ADAPTOVATE</div>
+      <h1 id="hero-title">Talent Dashboard</h1>
+      <p class="sub" id="hero-subtitle">Past 14 days. Interview feedback. Candidate assessment.</p>
+    </section>
+
+    <div class="toolbar">
+      <button class="btn primary" type="button" data-action="save">Save locally</button>
+      <button class="btn secondary" type="button" data-action="reset">Reset view</button>
+      <button class="btn ghost" type="button" data-action="copy-link">Copy file path</button>
+      <div class="status" data-status>Local dashboard loaded from clean workbook data.</div>
+    </div>
+
+    <section class="top">
+      <article class="card">
+        <div class="head">
+          <div><h2>Leadership Summary</h2></div>
+          <span class="pill pill--purple">ATS view</span>
+        </div>
+        <div class="body leadership-summary" id="leadership-summary"></div>
+      </article>
+
+      <article class="card">
+        <div class="head">
+          <div><h2>Main Insights</h2></div>
+          <span class="pill pill--yellow">Short read</span>
+        </div>
+        <div class="body insight-list" id="main-insights"></div>
+      </article>
+    </section>
+
+    <div class="filters" id="office-filter-bar" aria-label="Office filter">
+      <button class="filter-chip active" type="button" data-office="Global">Global</button>
+      <button class="filter-chip" type="button" data-office="Toronto">Toronto</button>
+      <button class="filter-chip" type="button" data-office="Warsaw">Warsaw</button>
+      <button class="filter-chip" type="button" data-office="UK">UK</button>
+      <button class="filter-chip" type="button" data-office="Texas">Texas</button>
+    </div>
+
+    <nav class="tabs" role="tablist" aria-label="Dashboard tabs">
+      <button id="talent-tab" class="tab" type="button" role="tab" aria-selected="true" aria-controls="talent-panel" data-tab="talent-panel">Talent Dashboard</button>
+      <button id="role-tab" class="tab" type="button" role="tab" aria-selected="false" aria-controls="role-panel" data-tab="role-panel">Role Assessment</button>
+    </nav>
+
+    <section id="talent-panel" class="panel active" role="tabpanel" aria-labelledby="talent-tab">
+      <div class="section">
+        <div>
+          <h2 class="title">Talent Dashboard</h2>
+          <p class="section-sub">Past 14 days. Leadership signals.</p>
+        </div>
+        <span class="pill pill--yellow" id="talent-office-pill">Global</span>
+      </div>
+
+      <div class="grid-6" id="kpi-grid"></div>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Office View</h3></div>
+          <span class="pill pill--purple" id="office-view-pill">Global</span>
+        </div>
+        <div class="body">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Office</th>
+                  <th>Candidates</th>
+                  <th>Active</th>
+                  <th>Avg Score</th>
+                  <th>Top Stage</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="office-view-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </article>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Role View</h3></div>
+          <span class="pill pill--purple">Posting summary</span>
+        </div>
+        <div class="body">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Role</th>
+                  <th>Location</th>
+                  <th>Pipeline</th>
+                  <th>Avg Score</th>
+                  <th>Stage</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="role-view-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </article>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Funnel</h3></div>
+          <span class="pill pill--purple">Current funnel</span>
+        </div>
+        <div class="body" id="stage-health-body"></div>
+      </article>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Past 14 Days</h3></div>
+          <span class="pill pill--purple">Candidate names shown</span>
+        </div>
+        <div class="body">
+          <div class="table-wrap">
+            <table id="pipeline-table">
+              <thead>
+                <tr>
+                  <th>Candidate</th>
+                  <th>Role</th>
+                  <th>Stage</th>
+                  <th>Score</th>
+                  <th>Risk</th>
+                  <th>Next Step</th>
+                </tr>
+              </thead>
+              <tbody id="pipeline-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </article>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Risks</h3></div>
+          <span class="pill pill--yellow">Cleanup list</span>
+        </div>
+        <div class="body" id="risk-body"></div>
+      </article>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Leadership Decisions</h3></div>
+        </div>
+        <div class="body grid-3" id="leadership-decisions"></div>
+      </article>
+    </section>
+
+    <section id="role-panel" class="panel" role="tabpanel" aria-labelledby="role-tab">
+      <div class="section">
+        <div>
+          <h2 class="title">Role Assessment</h2>
+          <p class="section-sub">Role first. Candidate second.</p>
+        </div>
+        <span class="pill pill--yellow" id="role-office-pill">Global</span>
+      </div>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Open Roles</h3></div>
+          <span class="pill pill--purple">Selectable</span>
+        </div>
+        <div class="body">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Role</th>
+                  <th>Location</th>
+                  <th>Priority</th>
+                  <th>Pipeline</th>
+                  <th>Avg Score</th>
+                  <th>Stage</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="role-overview-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </article>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Role Snapshot</h3></div>
+          <span class="pill pill--purple" id="selected-role-pill">Selected role</span>
+        </div>
+        <div class="body">
+          <div class="snapshot-grid" id="role-snapshot"></div>
+        </div>
+      </article>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Funnel</h3></div>
+          <span class="pill pill--yellow" id="funnel-pill">Global</span>
+        </div>
+        <div class="body" id="role-funnel"></div>
+      </article>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Candidate Pipeline</h3></div>
+          <div class="head-actions">
+            <button class="btn ghost btn-inline" type="button" data-action="add-candidate">Add candidate</button>
+            <span class="pill pill--purple">Linked to role</span>
+          </div>
+        </div>
+        <div class="body">
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Candidate</th>
+                  <th>Stage</th>
+                  <th>Fit</th>
+                  <th>Strength</th>
+                  <th>Concern</th>
+                  <th>Next Step</th>
+                </tr>
+              </thead>
+              <tbody id="role-pipeline-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </article>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Candidate Detail</h3></div>
+          <div class="head-actions">
+            <button class="btn secondary btn-inline" type="button" data-action="delete-candidate">Delete candidate</button>
+            <span class="pill pill--purple" id="selected-candidate-pill">Selected candidate</span>
+          </div>
+        </div>
+        <div class="body">
+          <div class="detail-grid">
+            <div class="detail-stack">
+              <div class="detail-card assessment-profile" id="candidate-profile"></div>
+              <div class="detail-card assessment-summary" id="candidate-summary"></div>
+            </div>
+            <div class="detail-card assessment-scorecard" id="candidate-scorecard"></div>
+          </div>
+
+          <div class="chatbox">
+            <div class="head chat-head">
+              <div>
+                <h4>Follow-up Chat</h4>
+                <p class="decision-note">Short note for next interview.</p>
+              </div>
+              <span class="pill pill--yellow">Local sync</span>
+            </div>
+            <div class="chat-history" id="chat-history"></div>
+            <textarea id="chat-input" class="chat-input" rows="3" placeholder="Add follow-up note or test focus..."></textarea>
+            <div class="chat-actions">
+              <button class="btn primary" type="button" data-action="send-chat">Add note</button>
+              <button class="btn secondary" type="button" data-action="clear-chat">Clear note</button>
+              <span class="tiny">Saved locally in this browser.</span>
+            </div>
+          </div>
+
+          <div class="decision-box">
+            <h4>Decision Needed</h4>
+            <p class="decision-note" id="decision-note"></p>
+            <div class="decision-tags">
+              <span class="decision-tag">Move forward</span>
+              <span class="decision-tag">Hold</span>
+              <span class="decision-tag">Reject</span>
+              <span class="decision-tag">Need follow-up case</span>
+              <span class="decision-tag">Need leadership input</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <p class="footer">Internal working dashboard. Clean workbook import. ATS data only.</p>
+  </main>
+
+  <script src="./data-loader.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
