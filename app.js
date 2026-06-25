@@ -161,6 +161,11 @@ const metricFormatter = new Intl.NumberFormat("en-US", { maximumFractionDigits: 
 const officeAliases = {
   UK: "London",
 };
+const requiredLondonCandidates = [
+  "Johan Dewald Viljoen",
+  "Mark Hill",
+  "Prathieban Sathanathan",
+];
 
 const editableDefaults = {
   totalCandidates: summary.kpis?.totalCandidates ?? candidates.length,
@@ -297,6 +302,10 @@ function syncSummaryViewsFromCandidates() {
   roles.forEach((role) => {
     const matched = candidates.filter((candidate) => candidate.role === role.role);
     role.pipeline_count = matched.length;
+    role.candidate_names = matched.map((candidate) => candidate.candidate_name);
+    if (!role.candidate_names.includes(role.selected_candidate)) {
+      role.selected_candidate = role.candidate_names[0] || "";
+    }
   });
 
   offices.forEach((office) => {
@@ -321,6 +330,34 @@ function syncSummaryViewsFromCandidates() {
     });
     funnel.offices[officeName] = officeCounts;
   });
+}
+
+function ensureRequiredLondonData() {
+  const sourceCandidates = Array.isArray(talentData.candidates) ? talentData.candidates : [];
+  const sourceDetails = Array.isArray(talentData.candidateDetails) ? talentData.candidateDetails : [];
+
+  requiredLondonCandidates.forEach((candidateName) => {
+    const hasCandidate = candidates.some((candidate) => clean(candidate.candidate_name) === candidateName);
+    if (!hasCandidate) {
+      const sourceCandidate = sourceCandidates.find((candidate) => clean(candidate.candidate_name) === candidateName);
+      if (sourceCandidate) {
+        dataState.candidates = [...candidates, deepClone(sourceCandidate)];
+        candidates = dataState.candidates;
+      }
+    }
+
+    const hasDetail = candidateDetails.some((detail) => clean(detail.candidate_name) === candidateName);
+    if (!hasDetail) {
+      const sourceDetail = sourceDetails.find((detail) => clean(detail.candidate_name) === candidateName);
+      if (sourceDetail) {
+        dataState.candidateDetails = [...candidateDetails, deepClone(sourceDetail)];
+        candidateDetails = dataState.candidateDetails;
+      }
+    }
+  });
+
+  refreshCandidateLookup();
+  syncSummaryViewsFromCandidates();
 }
 
 function updateCandidateDerivedFields(candidate) {
@@ -475,6 +512,10 @@ if (state.activeCandidates === 37 && summary.kpis?.activeCandidates === 35) {
   state.activeCandidates = 35;
   saveState();
 }
+
+ensureRequiredLondonData();
+refreshDataRefs();
+syncDashboardCounts();
 
 function persistAll() {
   writeDataState(dataState);
@@ -1231,6 +1272,8 @@ function setOffice(office) {
 
 function syncFromStorage() {
   dataState = mergeSourceData(readDataState(), talentData);
+  refreshDataRefs();
+  ensureRequiredLondonData();
   refreshDataRefs();
   rebuildRoleOverrideDefaultsMap();
   const nextState = readState();
