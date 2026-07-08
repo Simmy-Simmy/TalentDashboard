@@ -1,149 +1,102 @@
-// Generated from aps_active_talent_interview_extract.xlsx
+// Generated from July 8 live pipeline update
 window.TALENT_DATA = {
   "meta": {
-    "header": "ADAPTOVATE Talent Dashboard",
-    "title": "Talent Dashboard",
-    "subtitle": "Live pipeline. Interview feedback. Candidate assessment.",
-    "period": "Past 30 days to 24 June 2026",
-    "privacyNote": "This internal dashboard uses ATS interview and feedback data for recruiting management. Candidate names are shown only in pipeline and role assessment views. Emails, CVs, salary details, contracts, and unnecessary personal data are not displayed."
+    "heading": "ADAPTOVATE Talent Dashboard",
+    "subheading": "Live pipeline. Interview feedback. Candidate assessment.",
+    "dataLabel": "July 8 live pipeline update",
+    "capturedDate": "2026-07-08",
+    "sourceNote": "Current live pipeline stage, candidate names, and office/location are taken from screenshots. ATS CSV exports are used only for feedback/interview context."
   },
   "summary": {
     "leadershipSummary": [
-      "17 active candidates across 7 open roles.",
-      "14 feedback forms completed; 3 still pending.",
-      "2 major red flags need review."
+      "29 active interview candidates across Toronto, Warsaw, UK, and Texas.",
+      "Current stages come from the July 8 live pipeline update.",
+      "24 active candidates have no completed feedback captured in this update."
     ],
     "leadershipInsights": [
-      "Toronto has the largest queue.",
-      "London has the most advanced cases.",
-      "3 candidates still need feedback.",
-      "Warsaw feedback is complete."
+      "UK has 17 active candidates.",
+      "Toronto has 8 active candidates.",
+      "Warsaw has 2 active candidates.",
+      "Texas has 2 active candidates."
     ],
     "leadershipDecisions": [
       {
-        "title": "Toronto review",
-        "description": "Move early hires forward and confirm Zaid."
+        "title": "Feedback follow-up",
+        "description": "24 candidates need feedback captured or confirmed."
       },
       {
-        "title": "Warsaw path",
-        "description": "Keep Klaudyna, Piotr, and Bartosz under review."
+        "title": "UK shortlist",
+        "description": "17 active UK candidates across HR, 1st, 2nd, and 3rd round."
       },
       {
-        "title": "London check",
-        "description": "Close feedback gaps on senior roles."
+        "title": "Texas MDP",
+        "description": "2 active MDP candidates are in case and 3rd round stages."
       }
     ],
     "kpis": {
-      "totalCandidates": 17,
-      "activeCandidates": 17,
+      "totalCandidates": 29,
+      "activeCandidates": 29,
       "openRoles": 7,
-      "averageScore": 2.79,
-      "highRisk": 2,
-      "needReview": 3
+      "averageScore": 2.8,
+      "highRisk": 0,
+      "needReview": 24
     },
     "officeSummary": [
       {
         "office": "Toronto",
-        "count": 7,
-        "active": 7,
-        "average_score": 2.8,
-        "top_stage": "HR Interview",
-        "status": "Need Attention"
-      },
-      {
-        "office": "London",
-        "count": 5,
-        "active": 5,
-        "average_score": 2.75,
+        "count": 8,
+        "active": 8,
+        "average_score": null,
         "top_stage": "HR Interview",
         "status": "Need Attention"
       },
       {
         "office": "Warsaw",
-        "count": 4,
-        "active": 4,
-        "average_score": 2.75,
-        "top_stage": "1st Interview",
+        "count": 2,
+        "active": 2,
+        "average_score": 3.0,
+        "top_stage": "3rd Round Interview",
+        "status": "Need Attention"
+      },
+      {
+        "office": "UK",
+        "count": 17,
+        "active": 17,
+        "average_score": 2.67,
+        "top_stage": "HR Interview",
         "status": "Need Attention"
       },
       {
         "office": "Texas",
-        "count": 1,
-        "active": 1,
+        "count": 2,
+        "active": 2,
         "average_score": 3.0,
-        "top_stage": "1st Interview",
-        "status": "On Track"
+        "top_stage": "3rd Round Interview",
+        "status": "Need Attention"
       }
     ],
     "roleSummary": [
       {
-        "id": "ai-consultant-toronto",
-        "role": "AI Consultant | Toronto",
+        "id": "ai-transformation-consultant-toronto",
+        "role": "AI & Transformation Consultant | Toronto",
         "office": "Toronto",
         "priority": "Mid",
-        "pipeline_count": 7,
-        "current_stage": "HR Interview",
-        "average_score": 2.8,
+        "pipeline_count": 8,
+        "current_stage": "1st Interview - Take Home Case",
+        "average_score": null,
         "status": "Need Attention",
-        "status_reason": "Derived from workbook stage, score, and feedback mix.",
+        "status_reason": "Current stage and count from July 8 live pipeline update.",
         "candidate_names": [
-          "Aditi Maheshwari",
-          "Annet Shajan",
-          "Dhwani Soni",
+          "Sanjana Santhosh Pai",
+          "James Sun",
+          "Ian Mcleod",
+          "Tiffany Chau",
+          "Gaetano Pannia",
           "Fahad Hafeez",
-          "Sherv Alaghehbandi",
-          "Shivashish Ghosh",
-          "Zaid Abdulaziz"
+          "Dhwani Soni",
+          "Annet Shajan"
         ],
-        "selected_candidate": "Annet Shajan"
-      },
-      {
-        "id": "consultant-warsaw",
-        "role": "Consultant | Warsaw",
-        "office": "Warsaw",
-        "priority": "Mid",
-        "pipeline_count": 2,
-        "current_stage": "2nd Interview",
-        "average_score": 2.5,
-        "status": "Need Attention",
-        "status_reason": "Derived from workbook stage, score, and feedback mix.",
-        "candidate_names": [
-          "Piotr Broda",
-          "Bartosz Szpak"
-        ],
-        "selected_candidate": "Bartosz Szpak"
-      },
-      {
-        "id": "senior-consultant-london",
-        "role": "Senior Consultant | London",
-        "office": "London",
-        "priority": "Mid",
-        "pipeline_count": 3,
-        "current_stage": "1st Interview",
-        "average_score": 2.5,
-        "status": "Need Attention",
-        "status_reason": "Derived from workbook stage, score, and feedback mix.",
-        "candidate_names": [
-          "Ash Sheikh",
-          "Johan Dewald Viljoen",
-          "Justin Elias"
-        ],
-        "selected_candidate": "Justin Elias"
-      },
-      {
-        "id": "ai-consultant-warsaw",
-        "role": "AI Consultant | Warsaw",
-        "office": "Warsaw",
-        "priority": "Mid",
-        "pipeline_count": 1,
-        "current_stage": "1st Interview",
-        "average_score": 3.0,
-        "status": "On Track",
-        "status_reason": "Derived from workbook stage, score, and feedback mix.",
-        "candidate_names": [
-          "Klaudyna Szurgot"
-        ],
-        "selected_candidate": "Klaudyna Szurgot"
+        "selected_candidate": "Sanjana Santhosh Pai"
       },
       {
         "id": "associate-consultant-warsaw",
@@ -151,589 +104,954 @@ window.TALENT_DATA = {
         "office": "Warsaw",
         "priority": "Mid",
         "pipeline_count": 1,
-        "current_stage": "1st Interview",
+        "current_stage": "3rd Round Interview",
         "average_score": 3.0,
         "status": "On Track",
-        "status_reason": "Derived from workbook stage, score, and feedback mix.",
+        "status_reason": "Current stage and count from July 8 live pipeline update.",
         "candidate_names": [
           "Grzegorz Bień"
         ],
         "selected_candidate": "Grzegorz Bień"
       },
       {
-        "id": "managing-director-partner-mdp-texas",
-        "role": "Managing Director Partner (MDP) | Texas",
-        "office": "Texas",
-        "priority": "High",
+        "id": "consultant-warsaw",
+        "role": "Consultant | Warsaw",
+        "office": "Warsaw",
+        "priority": "Mid",
         "pipeline_count": 1,
-        "current_stage": "1st Interview",
-        "average_score": 3.0,
-        "status": "On Track",
-        "status_reason": "Derived from workbook stage, score, and feedback mix.",
+        "current_stage": "3rd Round Interview",
+        "average_score": null,
+        "status": "Need Attention",
+        "status_reason": "Current stage and count from July 8 live pipeline update.",
         "candidate_names": [
-          "Kanishka Banerji"
+          "Piotr Broda"
         ],
-        "selected_candidate": "Kanishka Banerji"
+        "selected_candidate": "Piotr Broda"
       },
       {
         "id": "principal-consulting-london",
         "role": "Principal | Consulting | London",
         "office": "London",
         "priority": "High",
-        "pipeline_count": 2,
-        "current_stage": "1st Interview",
-        "average_score": 3.0,
-        "status": "On Track",
-        "status_reason": "Derived from workbook stage, score, and feedback mix.",
+        "pipeline_count": 11,
+        "current_stage": "3rd Round Interview",
+        "average_score": 2.67,
+        "status": "Need Attention",
+        "status_reason": "Current stage and count from July 8 live pipeline update.",
         "candidate_names": [
-          "Mark Hill",
-          "Prathieban Sathanathan"
+          "Vinay Kumar",
+          "Vishal Gupta",
+          "Robin Blackburn",
+          "Jeremy Stevens",
+          "Lucas Adamik",
+          "Claire Robinson",
+          "Rob Wells",
+          "Prathleban Sathananthan",
+          "Priyasmita Ghose",
+          "Giles Boorman",
+          "Mark Hill"
         ],
-        "selected_candidate": "Prathieban Sathanathan"
+        "selected_candidate": "Vinay Kumar"
+      },
+      {
+        "id": "project-lead-consulting-london",
+        "role": "Project Lead | Consulting | London",
+        "office": "London",
+        "priority": "Mid",
+        "pipeline_count": 1,
+        "current_stage": "2nd Interview - Case Interview",
+        "average_score": null,
+        "status": "Need Attention",
+        "status_reason": "Current stage and count from July 8 live pipeline update.",
+        "candidate_names": [
+          "Agrima Bhutani"
+        ],
+        "selected_candidate": "Agrima Bhutani"
+      },
+      {
+        "id": "senior-consultant-london",
+        "role": "Senior Consultant | London",
+        "office": "London",
+        "priority": "Mid",
+        "pipeline_count": 5,
+        "current_stage": "2nd Interview - Case Interview",
+        "average_score": null,
+        "status": "Need Attention",
+        "status_reason": "Current stage and count from July 8 live pipeline update.",
+        "candidate_names": [
+          "Hugo Godson Treacy",
+          "Kajal Soneji",
+          "Justin Elias",
+          "Neha Jaiswal",
+          "Joshua Huggins"
+        ],
+        "selected_candidate": "Hugo Godson Treacy"
+      },
+      {
+        "id": "managing-director-partner-mdp-texas",
+        "role": "Managing Director Partner (MDP) | Texas",
+        "office": "Texas",
+        "priority": "High",
+        "pipeline_count": 2,
+        "current_stage": "3rd Round Interview",
+        "average_score": 3.0,
+        "status": "Need Attention",
+        "status_reason": "Current stage and count from July 8 live pipeline update.",
+        "candidate_names": [
+          "Kanishka Banerji",
+          "Russ Warren"
+        ],
+        "selected_candidate": "Kanishka Banerji"
       }
     ],
     "stageHealth": {
-      "HR Interview": 10,
-      "1st Interview": 6,
-      "2nd Interview": 1
+      "Lead": 265,
+      "Applicant": 22,
+      "Interview": 29,
+      "HR Interview": 14,
+      "1st Interview - Take Home Case": 3,
+      "1st Interview - Non Take Home Case/Consulting Track": 4,
+      "2nd Interview - Case Interview": 4,
+      "2nd Interview - Take Home Case": 0,
+      "Meet and Greet (Optional)": 0,
+      "3rd Round Interview": 4,
+      "Reference Check": 0,
+      "Background Check": 0,
+      "Offer": 0,
+      "Hired": 2
     },
     "bottlenecks": [
       {
-        "label": "Pending feedback",
-        "value": 2,
-        "note": "Needs feedback rating."
+        "label": "Feedback missing",
+        "value": 24,
+        "note": "Completed feedback is not captured for 24 active candidates."
       },
       {
-        "label": "High risk",
+        "label": "UK volume",
+        "value": 17,
+        "note": "Largest active interview pipeline."
+      },
+      {
+        "label": "Toronto cases",
         "value": 3,
-        "note": "Needs leadership review."
-      },
-      {
-        "label": "2nd interview",
-        "value": 1,
-        "note": "Advanced candidates."
-      },
-      {
-        "label": "3rd interview",
-        "value": 0,
-        "note": "Final-stage candidates."
-      },
-      {
-        "label": "Unknown",
-        "value": 0,
-        "note": "Not captured in ATS."
+        "note": "Take-home case candidates need review."
       }
     ]
   },
   "workbookSummary": {
-    "sheetNames": [
-      "Summary",
-      "Candidate Pipeline",
-      "Feedback Detail",
-      "Scorecard Long",
-      "Raw Interview Data",
-      "Mapping Notes"
+    "sourceFiles": [
+      "codex_pipeline_payload_20260708.json",
+      "active_candidate_pipeline_20260708.csv",
+      "adaptovate_dashboard_pipeline_update_20260708.xlsx"
     ],
-    "sourceWorkbook": "aps_active_talent_interview_extract.xlsx",
-    "sourceFiles": {
-      "workbook": "aps_active_talent_interview_extract.xlsx"
-    }
+    "candidateRows": 29,
+    "feedbackRowsUsed": 5
   },
   "candidates": [
     {
-      "id": "aditi-maheshwari-ai-consultant-toronto-toronto",
-      "candidate_name": "Aditi Maheshwari",
-      "role": "AI Consultant | Toronto",
+      "id": "sanjana-santhosh-pai-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Sanjana Santhosh Pai",
+      "role": "AI & Transformation Consultant | Toronto",
       "office_location": "Toronto",
+      "office": "Toronto",
+      "location": "Toronto",
       "stage": "HR Interview",
       "status": "Active",
-      "source": "Workbook import",
+      "source": "July 8 live pipeline update",
       "interview_score": null,
-      "risk_level": "Unknown",
-      "next_step": "Feedback pending",
-      "last_updated": "2026-06-24 12:00:00",
-      "strength": "",
-      "concern": "",
-      "fit": "Pending feedback",
-      "recommended_next_step": "",
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
       "recommendation": "Not captured in ATS.",
-      "opportunity_id": "a9bf83e4-37c6-4572-bb5d-6e7edd0a4510",
-      "contact_id": "bfb543b0-5852-40bf-a441-3321675da37e",
-      "interview_form": "Consultant HR Interview",
-      "interview_date": "2026-06-24 12:00:00",
-      "timezone": "America/Toronto",
-      "interviewers": "Agata Przespolewska",
+      "company": "Citi",
+      "interview_date": "",
+      "interviewers": "",
       "forms_completed": "0",
-      "forms_expected": "1",
+      "forms_expected": "",
       "level_fit": "",
-      "red_flag": ""
+      "red_flag": "Not captured in ATS."
     },
     {
-      "id": "annet-shajan-ai-consultant-toronto-toronto",
-      "candidate_name": "Annet Shajan",
-      "role": "AI Consultant | Toronto",
+      "id": "james-sun-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "James Sun",
+      "role": "AI & Transformation Consultant | Toronto",
       "office_location": "Toronto",
+      "office": "Toronto",
+      "location": "Toronto",
       "stage": "HR Interview",
       "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 3.0,
-      "risk_level": "Medium",
-      "next_step": "Proceed — '- consulting toolkit",
-      "last_updated": "2026-06-23 12:15:00",
-      "strength": "Annet works for META through Accenture.",
-      "concern": "Test: '- consulting toolkit",
-      "fit": "Rating 3 | Level: Associate | Recommend: yes",
-      "recommended_next_step": "yes",
-      "recommendation": "Yes",
-      "opportunity_id": "14c61e66-c1d0-48c2-9e64-bd2bb105339d",
-      "contact_id": "69bc64b5-2691-4d9c-a362-e6646997fc57",
-      "interview_form": "Consultant HR Interview",
-      "interview_date": "2026-06-23 12:15:00",
-      "timezone": "America/Toronto",
-      "interviewers": "Agata Przespolewska",
-      "forms_completed": "1",
-      "forms_expected": "1",
-      "level_fit": "Associate",
-      "red_flag": "No"
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Plot Ark",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
     },
     {
-      "id": "dhwani-soni-ai-consultant-toronto-toronto",
-      "candidate_name": "Dhwani Soni",
-      "role": "AI Consultant | Toronto",
+      "id": "ian-mcleod-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Ian Mcleod",
+      "role": "AI & Transformation Consultant | Toronto",
       "office_location": "Toronto",
+      "office": "Toronto",
+      "location": "Toronto",
       "stage": "HR Interview",
       "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 3.0,
-      "risk_level": "Medium",
-      "next_step": "Proceed — '- consulting toolkit",
-      "last_updated": "2026-06-23 13:00:00",
-      "strength": "Dhwani has experience from BCG, where she started with internal role (COE was kind of internal consulting), than successfully transitioned to client facing Associate.",
-      "concern": "Test: '- consulting toolkit",
-      "fit": "Rating 3 | Level: Associate | Recommend: yes",
-      "recommended_next_step": "yes",
-      "recommendation": "Yes",
-      "opportunity_id": "3ce5a28a-accd-435e-8743-4b38e35cbbc1",
-      "contact_id": "e563aae5-9b26-42fc-a48b-51af63b432a1",
-      "interview_form": "Consultant HR Interview",
-      "interview_date": "2026-06-23 13:00:00",
-      "timezone": "America/Toronto",
-      "interviewers": "Agata Przespolewska",
-      "forms_completed": "1",
-      "forms_expected": "1",
-      "level_fit": "Associate",
-      "red_flag": "No"
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Ernst & Young (EY Studio+)",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
     },
     {
-      "id": "fahad-hafeez-ai-consultant-toronto-toronto",
+      "id": "tiffany-chau-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Tiffany Chau",
+      "role": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
+      "location": "Toronto",
+      "stage": "HR Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Deloitte, Accenture",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "gaetano-pannia-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Gaetano Pannia",
+      "role": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
+      "location": "Toronto",
+      "stage": "HR Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "IBM",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "fahad-hafeez-ai-transformation-consultant-toronto-toronto",
       "candidate_name": "Fahad Hafeez",
-      "role": "AI Consultant | Toronto",
+      "role": "AI & Transformation Consultant | Toronto",
       "office_location": "Toronto",
-      "stage": "HR Interview",
+      "office": "Toronto",
+      "location": "Toronto",
+      "stage": "1st Interview - Take Home Case",
       "status": "Active",
-      "source": "Workbook import",
+      "source": "July 8 live pipeline update",
       "interview_score": null,
-      "risk_level": "Unknown",
-      "next_step": "Feedback pending",
-      "last_updated": "2026-06-24 13:15:00",
-      "strength": "",
-      "concern": "",
-      "fit": "Pending feedback",
-      "recommended_next_step": "",
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
       "recommendation": "Not captured in ATS.",
-      "opportunity_id": "9bae5232-f49b-432a-a60f-618ef89f10f5",
-      "contact_id": "b6765085-b5ce-4830-890b-2c6036907794",
-      "interview_form": "Consultant HR Interview",
-      "interview_date": "2026-06-24 13:15:00",
-      "timezone": "America/Toronto",
-      "interviewers": "Agata Przespolewska",
+      "company": "Next Generation Manufacturing Canada (NGen Canada)",
+      "interview_date": "2026-07-08 17:00:00",
+      "interviewers": "Sevinc Caglar",
       "forms_completed": "0",
       "forms_expected": "1",
       "level_fit": "",
-      "red_flag": ""
+      "red_flag": "Not captured in ATS."
     },
     {
-      "id": "sherv-alaghehbandi-ai-consultant-toronto-toronto",
-      "candidate_name": "Sherv Alaghehbandi",
-      "role": "AI Consultant | Toronto",
+      "id": "dhwani-soni-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Dhwani Soni",
+      "role": "AI & Transformation Consultant | Toronto",
       "office_location": "Toronto",
-      "stage": "HR Interview",
+      "office": "Toronto",
+      "location": "Toronto",
+      "stage": "1st Interview - Take Home Case",
       "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 3.0,
-      "risk_level": "Medium",
-      "next_step": "Proceed — '- consulting toolkit - AI",
-      "last_updated": "2026-06-17 13:15:00",
-      "strength": "Relevant experience form public and private sectors.",
-      "concern": "Test: '- consulting toolkit - AI",
-      "fit": "Rating 3 | Level: Consultant | Recommend: yes",
-      "recommended_next_step": "yes",
-      "recommendation": "Yes",
-      "opportunity_id": "61be34f6-d51e-445a-8327-393f81b6c660",
-      "contact_id": "3c650bfe-f319-43e7-bacf-613e75f33bb8",
-      "interview_form": "Consultant HR Interview",
-      "interview_date": "2026-06-17 13:15:00",
-      "timezone": "America/Toronto",
-      "interviewers": "Agata Przespolewska",
-      "forms_completed": "1",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Viva Jewels",
+      "interview_date": "2026-07-07 20:00:00",
+      "interviewers": "Sevinc Caglar",
+      "forms_completed": "0",
       "forms_expected": "1",
-      "level_fit": "Consultant",
-      "red_flag": "No"
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
     },
     {
-      "id": "shivashish-ghosh-ai-consultant-toronto-toronto",
-      "candidate_name": "Shivashish Ghosh",
-      "role": "AI Consultant | Toronto",
+      "id": "annet-shajan-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Annet Shajan",
+      "role": "AI & Transformation Consultant | Toronto",
       "office_location": "Toronto",
-      "stage": "HR Interview",
+      "office": "Toronto",
+      "location": "Toronto",
+      "stage": "1st Interview - Take Home Case",
       "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 3.0,
-      "risk_level": "Medium",
-      "next_step": "Proceed — '- consulting toolkit - structure",
-      "last_updated": "2026-06-22 10:00:00",
-      "strength": "Relevant experience, strong AI expertise, incl.",
-      "concern": "Test: '- consulting toolkit - structure",
-      "fit": "Rating 3 | Level: Consultant | Recommend: yes",
-      "recommended_next_step": "yes",
-      "recommendation": "Yes",
-      "opportunity_id": "66b12171-bc96-4607-8258-f4b87ad67752",
-      "contact_id": "8e88322a-8fea-40a6-9893-7bc52160e8d5",
-      "interview_form": "Consultant HR Interview",
-      "interview_date": "2026-06-22 10:00:00",
-      "timezone": "Asia/Calcutta",
-      "interviewers": "Agata Przespolewska",
-      "forms_completed": "1",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Accenture",
+      "interview_date": "2026-07-02 19:00:00",
+      "interviewers": "Nikhil Josh",
+      "forms_completed": "0",
       "forms_expected": "1",
-      "level_fit": "Consultant",
-      "red_flag": "No"
-    },
-    {
-      "id": "zaid-abdulaziz-ai-consultant-toronto-toronto",
-      "candidate_name": "Zaid Abdulaziz",
-      "role": "AI Consultant | Toronto",
-      "office_location": "Toronto",
-      "stage": "HR Interview",
-      "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 2.0,
-      "risk_level": "High",
-      "next_step": "Proceed",
-      "last_updated": "2026-06-22 15:00:00",
-      "strength": "no consulting experience.",
-      "concern": "Red flag: Major — was not ready to have camera on at 9:15, claiming it's so early",
-      "fit": "Rating 2 | Level: Graduate | Recommend: yes",
-      "recommended_next_step": "yes",
-      "recommendation": "Yes",
-      "opportunity_id": "f41e2c9e-77d4-4b2e-81df-4186d6e033d1",
-      "contact_id": "50bfe325-3f64-4c7a-92fb-2400ab5dec8b",
-      "interview_form": "Consultant HR Interview",
-      "interview_date": "2026-06-22 15:00:00",
-      "timezone": "America/Toronto",
-      "interviewers": "Agata Przespolewska",
-      "forms_completed": "1",
-      "forms_expected": "1",
-      "level_fit": "Graduate",
-      "red_flag": "Major"
-    },
-    {
-      "id": "klaudyna-szurgot-ai-consultant-warsaw-warsaw",
-      "candidate_name": "Klaudyna Szurgot",
-      "role": "AI Consultant | Warsaw",
-      "office_location": "Warsaw",
-      "stage": "1st Interview",
-      "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 3.0,
-      "risk_level": "Medium",
-      "next_step": "Proceed — The main development area is structured communications: she should get familiar with exec summary conventions, SCM, MECE, and the Pyramid Principle before the next round. That's the one thing worth probing and testing directly next time.",
-      "last_updated": "2026-06-16 07:00:00",
-      "strength": "Klaudyna came across as a confident and capable candidate — easy to talk to, open to feedback in the room, and clearly someone who has done the real work, not just advised on it.",
-      "concern": "Test: The main development area is structured communications: she should get familiar with exec summary conventions, SCM, MECE, and the Pyramid Principle before the next round. That's the one thing worth probing and testing directly next time.",
-      "fit": "Rating 3 | Level: Consultant | Recommend: yes",
-      "recommended_next_step": "yes",
-      "recommendation": "Yes",
-      "opportunity_id": "78c5e62b-cef1-4ca1-bba1-e59337411601",
-      "contact_id": "e8fdf6c4-94e3-451c-9b8d-7cf974ff2e0f",
-      "interview_form": "Take Home Case PPT Interview",
-      "interview_date": "2026-06-16 07:00:00",
-      "timezone": "Europe/Warsaw",
-      "interviewers": "Michal Rosolowski",
-      "forms_completed": "1",
-      "forms_expected": "1",
-      "level_fit": "Consultant",
-      "red_flag": "No"
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
     },
     {
       "id": "grzegorz-bie-associate-consultant-warsaw-warsaw",
       "candidate_name": "Grzegorz Bień",
       "role": "Associate Consultant | Warsaw",
       "office_location": "Warsaw",
-      "stage": "1st Interview",
+      "office": "Warsaw",
+      "location": "Warsaw",
+      "stage": "3rd Round Interview",
       "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 3.0,
-      "risk_level": "Medium",
-      "next_step": "Proceed — The primary area to work on is presentation delivery using SCR and pyramid approach.",
-      "last_updated": "2026-06-22 07:00:00",
-      "strength": "Grzegorz shows genuine consulting potential and we are happy to move him forward to the next stage, though at Associate rather than Consultant level.",
-      "concern": "Test: The primary area to work on is presentation delivery using SCR and pyramid approach.",
-      "fit": "Rating 3 | Level: Associate | Recommend: yes",
+      "source": "July 8 live pipeline update",
+      "interview_score": 3,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Creativity and depth of solution. Structuring of approach.",
+      "last_updated": "2026-07-08",
+      "strength": "Overall: Good candidate with useful previous experience as a consultant. - Consulting Skills: Knowing the consulting...",
+      "concern": "Not captured in ATS.",
+      "fit": "Rating 3 | Recommend: yes | Feedback: Yes",
       "recommended_next_step": "yes",
-      "recommendation": "Yes",
-      "opportunity_id": "1efdc2b4-a2a4-4903-8351-eea7e5a13d98",
-      "contact_id": "d444572f-a063-488a-baf5-b3b227decbf8",
-      "interview_form": "Take Home Case PPT Interview",
-      "interview_date": "2026-06-22 07:00:00",
-      "timezone": "Europe/Warsaw",
-      "interviewers": "Agata Przespolewska; Michal Rosolowski",
+      "recommendation": "yes",
+      "company": "Accenture",
+      "interview_date": "2026-06-29 09:00:00",
+      "interviewers": "Piotr Mocny",
       "forms_completed": "1",
       "forms_expected": "1",
-      "level_fit": "Associate",
-      "red_flag": "No"
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
     },
     {
       "id": "piotr-broda-consultant-warsaw-warsaw",
       "candidate_name": "Piotr Broda",
       "role": "Consultant | Warsaw",
       "office_location": "Warsaw",
-      "stage": "2nd Interview",
+      "office": "Warsaw",
+      "location": "Warsaw",
+      "stage": "3rd Round Interview",
       "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 3.0,
-      "risk_level": "Medium",
-      "next_step": "Proceed — Structured thinking. Usage of frameworks",
-      "last_updated": "2026-06-17 13:00:00",
-      "strength": "Very good at listening, capturing the information, rephrasing, asking questions and identifying objective and core problem.",
-      "concern": "Test: Structured thinking. Usage of frameworks",
-      "fit": "Rating 3 | Level: Associate | Recommend: yes",
-      "recommended_next_step": "yes",
-      "recommendation": "Yes",
-      "opportunity_id": "45abbe9d-31d4-448a-b45c-938ea677434e",
-      "contact_id": "fdcd5cbf-eee2-4e8b-8784-673430edf2f6",
-      "interview_form": "Consultant Case Interview",
-      "interview_date": "2026-06-17 13:00:00",
-      "timezone": "Europe/Warsaw",
-      "interviewers": "Michal Rosolowski; Piotr Mocny",
-      "forms_completed": "1",
-      "forms_expected": "1",
-      "level_fit": "Associate",
-      "red_flag": "No"
-    },
-    {
-      "id": "bartosz-szpak-consultant-warsaw-warsaw",
-      "candidate_name": "Bartosz Szpak",
-      "role": "Consultant | Warsaw",
-      "office_location": "Warsaw",
-      "stage": "1st Interview",
-      "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 2.0,
-      "risk_level": "High",
-      "next_step": "Do not proceed",
-      "last_updated": "2026-06-19 07:00:00",
-      "strength": "Overall, Bartosz is not yet ready for independent client-facing delivery.",
-      "concern": "Not recommended; see overall comments.",
-      "fit": "Rating 2 | Level: N/A (Not recommended for hire) | Recommend: no",
-      "recommended_next_step": "no",
-      "recommendation": "No",
-      "opportunity_id": "1f5a81b6-c135-4dd3-af7f-72f14e3bc138",
-      "contact_id": "eafd89a2-5910-400c-92c6-ce2c3966d935",
-      "interview_form": "Take Home Case PPT Interview",
-      "interview_date": "2026-06-19 07:00:00",
-      "timezone": "Europe/Warsaw",
-      "interviewers": "Agata Przespolewska; Michal Rosolowski",
-      "forms_completed": "1",
-      "forms_expected": "1",
-      "level_fit": "N/A (Not recommended for hire)",
-      "red_flag": "No"
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Cyrantos",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
     },
     {
       "id": "kanishka-banerji-managing-director-partner-mdp-texas-texas",
       "candidate_name": "Kanishka Banerji",
       "role": "Managing Director Partner (MDP) | Texas",
       "office_location": "Texas",
-      "stage": "1st Interview",
+      "office": "Texas",
+      "location": "Texas",
+      "stage": "2nd Interview - Case Interview",
       "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 3.0,
-      "risk_level": "Medium",
-      "next_step": "Proceed — '- if has the start up sales skills (if he can sales with EY name) - Fit - more as a delivery leader than a seller - He said he has a strong relationship with oil & gas people in Houston, check",
-      "last_updated": "2026-06-24 20:30:00",
-      "strength": "Deep Oil & Gas sector experience.",
-      "concern": "Test: '- if has the start up sales skills (if he can sales with EY name) - Fit - more as a delivery leader than a seller - He said he has a strong relationship with oil & gas people in Houston, check",
-      "fit": "Rating 3 | Recommend: yes",
+      "source": "July 8 live pipeline update",
+      "interview_score": 3,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "To Test Next 30/60/90 day plan Paul to run a case study with him to assess consulting approach",
+      "last_updated": "2026-07-08",
+      "strength": "Kanishka Banerji — 1st Interview Notes Jeff von Drehnen | Jun 25, 2026 Background & Experience Wants to leverage his...",
+      "concern": "Not captured in ATS.",
+      "fit": "Rating 3 | Recommend: yes | Feedback: Yes",
       "recommended_next_step": "yes",
-      "recommendation": "Yes",
-      "opportunity_id": "816b50f9-fb51-4f59-af75-e4212711d8d1",
-      "contact_id": "7e6f983d-f602-4314-a26b-c3afe851bc7f",
-      "interview_form": "1st Partner & Office Lead Interview - Meet & Greet",
+      "recommendation": "yes",
+      "company": "ERNST & YOUNG LLP (EY)",
       "interview_date": "2026-06-24 20:30:00",
-      "timezone": "Asia/Singapore",
-      "interviewers": "Jeffrey von Drehnen; Paul McNamara",
-      "forms_completed": "0",
+      "interviewers": "Jeffrey von Drehnen",
+      "forms_completed": "1",
       "forms_expected": "1",
       "level_fit": "",
-      "red_flag": "No"
+      "red_flag": "Not captured in ATS."
     },
     {
-      "id": "mark-hill-principal-consulting-london-london",
-      "candidate_name": "Mark Hill",
-      "role": "Principal | Consulting | London",
-      "office_location": "London",
-      "stage": "1st Interview",
+      "id": "russ-warren-managing-director-partner-mdp-texas-texas",
+      "candidate_name": "Russ Warren",
+      "role": "Managing Director Partner (MDP) | Texas",
+      "office_location": "Texas",
+      "office": "Texas",
+      "location": "Texas",
+      "stage": "3rd Round Interview",
       "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 3.0,
-      "risk_level": "Low",
-      "next_step": "Run case; test UK team fit",
-      "last_updated": "2026-06-19 13:00:00",
-      "strength": "Strong sales focus and client presence",
-      "concern": "Consulting toolkit and UK fit untested",
-      "fit": "Strong commercial fit | Level: Project Lead | Proceed to case and UK review",
-      "recommended_next_step": "Proceed to case and UK review",
-      "recommendation": "Proceed to case and UK review",
-      "opportunity_id": "e0c18f29-07ed-4ac7-ac0f-24acf0fdcac8",
-      "contact_id": "1d4ded97-31d3-41ed-9009-916973f8d212",
-      "interview_form": "Final Consultant Case Interview",
-      "interview_date": "2026-06-19 13:00:00",
-      "timezone": "Europe/Warsaw",
-      "interviewers": "Alex Rebkowski",
-      "forms_completed": "1",
-      "forms_expected": "1",
-      "level_fit": "Project Lead",
-      "red_flag": "No"
-    },
-    {
-      "id": "prathieban-sathanathan-principal-consulting-london-london",
-      "candidate_name": "Prathieban Sathanathan",
-      "role": "Principal | Consulting | London",
-      "office_location": "London",
-      "stage": "HR Interview",
-      "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 3.0,
-      "risk_level": "Low",
-      "next_step": "Test Principal readiness",
-      "last_updated": "2026-06-12 07:00:00",
-      "strength": "Strong sales experience and ambition",
-      "concern": "Principal-only expectations need validation",
-      "fit": "Good Principal potential | Level: Principal | Proceed to next interview",
-      "recommended_next_step": "Proceed to next interview",
-      "recommendation": "Proceed to next interview",
-      "opportunity_id": "4a4cae07-c87a-450c-9e02-2039fe509fae",
-      "contact_id": "33d5c5f0-da66-466c-9228-0cb9fb7db871",
-      "interview_form": "Consultant HR Interview",
-      "interview_date": "2026-06-12 07:00:00",
-      "timezone": "Europe/London",
-      "interviewers": "Agata Przespolewska",
-      "forms_completed": "1",
-      "forms_expected": "1",
-      "level_fit": "Principal",
-      "red_flag": "No"
-    },
-    {
-      "id": "ash-sheikh-senior-consultant-london-london",
-      "candidate_name": "Ash Sheikh",
-      "role": "Senior Consultant | London",
-      "office_location": "London",
-      "stage": "1st Interview",
-      "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 2.0,
-      "risk_level": "High",
-      "next_step": "Do not proceed — Commerciality. Number-based business thinking (consulting skills vs. coaching)",
-      "last_updated": "2026-06-11 08:00:00",
-      "strength": "Gives the feeling of a senior Agile Coach - not a rounded consultant.",
-      "concern": "Red flag: Major — Commercial attitude. Non-standard way of thinking, internal philosophy.",
-      "fit": "Rating 2 | Level: Project Lead | Recommend: no",
-      "recommended_next_step": "no",
-      "recommendation": "No",
-      "opportunity_id": "c78c3014-7842-46a1-9577-eecf7cf13b93",
-      "contact_id": "819af5b6-77f2-4686-858d-9f85636aac9e",
-      "interview_form": "Take Home Case PPT Interview",
-      "interview_date": "2026-06-11 08:00:00",
-      "timezone": "Europe/Warsaw",
-      "interviewers": "Piotr Mocny",
-      "forms_completed": "1",
-      "forms_expected": "1",
-      "level_fit": "Project Lead",
-      "red_flag": "Major"
-    },
-    {
-      "id": "johan-dewald-viljoen-senior-consultant-london-london",
-      "candidate_name": "Johan Dewald Viljoen",
-      "role": "Senior Consultant | London",
-      "office_location": "London",
-      "stage": "HR Interview",
-      "status": "Active",
-      "source": "Workbook import",
+      "source": "July 8 live pipeline update",
       "interview_score": null,
-      "risk_level": "Unknown",
-      "next_step": "Close pending interviewer feedback",
-      "last_updated": "2026-06-12 10:00:00",
-      "strength": "",
-      "concern": "Feedback not yet submitted",
-      "fit": "Pending feedback",
-      "recommended_next_step": "Pending feedback",
-      "recommendation": "Pending feedback",
-      "opportunity_id": "b18a7682-8d27-4db2-8d26-d28d2206d7a8",
-      "contact_id": "80f6f7a4-0259-49e5-832b-c271f18cabde",
-      "interview_form": "Consultant HR Interview",
-      "interview_date": "2026-06-12 10:00:00",
-      "timezone": "Europe/London",
-      "interviewers": "Agata Przespolewska",
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Accenture (Energy Strategy MD)",
+      "interview_date": "",
+      "interviewers": "",
       "forms_completed": "0",
-      "forms_expected": "1",
+      "forms_expected": "",
       "level_fit": "",
-      "red_flag": ""
+      "red_flag": "Not captured in ATS."
     },
     {
-      "id": "justin-elias-senior-consultant-london-london",
+      "id": "vinay-kumar-principal-consulting-london-uk",
+      "candidate_name": "Vinay Kumar",
+      "role": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "HR Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "NESO (National Energy System Operator)",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "hugo-godson-treacy-senior-consultant-london-uk",
+      "candidate_name": "Hugo Godson Treacy",
+      "role": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "HR Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "EY Ireland",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "vishal-gupta-principal-consulting-london-uk",
+      "candidate_name": "Vishal Gupta",
+      "role": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "HR Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Hitachi",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "robin-blackburn-principal-consulting-london-uk",
+      "candidate_name": "Robin Blackburn",
+      "role": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "HR Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Welcomm Communications, OSF Digital, Frost & Sullivan, Imperial Health Sciences, Ericsson, System21",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "jeremy-stevens-principal-consulting-london-uk",
+      "candidate_name": "Jeremy Stevens",
+      "role": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "HR Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": 3,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "'-sales",
+      "last_updated": "2026-07-08",
+      "strength": "Very comertially driven. - Works as a contractor, wants a permanent role to leverage his network (says he has a solid...",
+      "concern": "Not captured in ATS.",
+      "fit": "Rating 3 | Recommend: yes | Feedback: Yes",
+      "recommended_next_step": "yes",
+      "recommendation": "yes",
+      "company": "Technoworks",
+      "interview_date": "2026-06-26 09:00:00",
+      "interviewers": "Agata Przespolewska",
+      "forms_completed": "1",
+      "forms_expected": "1",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "lucas-adamik-principal-consulting-london-uk",
+      "candidate_name": "Lucas Adamik",
+      "role": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "HR Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": 2,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "'-sales -energy",
+      "last_updated": "2026-07-08",
+      "strength": "experience mostly in consulting, manufacturing, gov. - Focused on sales and growth. - Calm domenour. - Polish guy.",
+      "concern": "Not captured in ATS.",
+      "fit": "Rating 2 | Recommend: yes | Feedback: Yes",
+      "recommended_next_step": "yes",
+      "recommendation": "yes",
+      "company": "Symetri",
+      "interview_date": "2026-06-26 10:00:00",
+      "interviewers": "Agata Przespolewska",
+      "forms_completed": "1",
+      "forms_expected": "1",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "claire-robinson-principal-consulting-london-uk",
+      "candidate_name": "Claire Robinson",
+      "role": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "HR Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Ivelium Marketing",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "rob-wells-principal-consulting-london-uk",
+      "candidate_name": "Rob Wells",
+      "role": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "HR Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Nicklaus Brown & Co",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "kajal-soneji-senior-consultant-london-uk",
+      "candidate_name": "Kajal Soneji",
+      "role": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "HR Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Grant Thornton",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "justin-elias-senior-consultant-london-uk",
       "candidate_name": "Justin Elias",
       "role": "Senior Consultant | London",
       "office_location": "London",
-      "stage": "HR Interview",
+      "office": "UK",
+      "location": "London",
+      "stage": "1st Interview - Non Take Home Case/Consulting Track",
       "status": "Active",
-      "source": "Workbook import",
-      "interview_score": 3.0,
-      "risk_level": "Medium",
-      "next_step": "Proceed — '- sales",
-      "last_updated": "2026-06-11 08:00:00",
-      "strength": "Candidate with lot's of experience in operation, sales, consulting.",
-      "concern": "Test: '- sales",
-      "fit": "Rating 3 | Level: Project Lead | Recommend: yes",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Collinson Grant",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "prathleban-sathananthan-principal-consulting-london-uk",
+      "candidate_name": "Prathleban Sathananthan",
+      "role": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "1st Interview - Non Take Home Case/Consulting Track",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "EY",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "priyasmita-ghose-principal-consulting-london-uk",
+      "candidate_name": "Priyasmita Ghose",
+      "role": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "1st Interview - Non Take Home Case/Consulting Track",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Fractal Analytics",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "giles-boorman-principal-consulting-london-uk",
+      "candidate_name": "Giles Boorman",
+      "role": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "1st Interview - Non Take Home Case/Consulting Track",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "North Highland UK",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "neha-jaiswal-senior-consultant-london-uk",
+      "candidate_name": "Neha Jaiswal",
+      "role": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "2nd Interview - Case Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Greybook Ltd",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "joshua-huggins-senior-consultant-london-uk",
+      "candidate_name": "Joshua Huggins",
+      "role": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "2nd Interview - Case Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Accenture",
+      "interview_date": "2026-06-30 15:00:00",
+      "interviewers": "David Storrie",
+      "forms_completed": "0",
+      "forms_expected": "1",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "agrima-bhutani-project-lead-consulting-london-uk",
+      "candidate_name": "Agrima Bhutani",
+      "role": "Project Lead | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "2nd Interview - Case Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": null,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Not captured in ATS.",
+      "last_updated": "2026-07-08",
+      "strength": "Not captured in ATS.",
+      "concern": "Not captured in ATS.",
+      "fit": "Feedback: No",
+      "recommended_next_step": "Not captured in ATS.",
+      "recommendation": "Not captured in ATS.",
+      "company": "Efficio Consulting",
+      "interview_date": "",
+      "interviewers": "",
+      "forms_completed": "0",
+      "forms_expected": "",
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
+    },
+    {
+      "id": "mark-hill-principal-consulting-london-uk",
+      "candidate_name": "Mark Hill",
+      "role": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "stage": "3rd Round Interview",
+      "status": "Active",
+      "source": "July 8 live pipeline update",
+      "interview_score": 3,
+      "risk_level": "Not captured in ATS.",
+      "next_step": "Test again his commerciality and fit for ADAPTOVATE needs.",
+      "last_updated": "2026-07-08",
+      "strength": "Mark presented well , provided a breadth of experience and also has exposure to what it means to build a small busine...",
+      "concern": "Not captured in ATS.",
+      "fit": "Rating 3 | Recommend: yes | Feedback: Yes",
       "recommended_next_step": "yes",
-      "recommendation": "Yes",
-      "opportunity_id": "c5b8b665-c077-4b5b-8b7b-f25b6ac5786e",
-      "contact_id": "2d8372ab-c1ab-48b0-affb-7f24e04a30c9",
-      "interview_form": "Consultant HR Interview",
-      "interview_date": "2026-06-11 08:00:00",
-      "timezone": "Europe/London",
-      "interviewers": "Agata Przespolewska",
+      "recommendation": "yes",
+      "company": "Lander Sports Investment Ltd",
+      "interview_date": "2026-07-06 08:00:00",
+      "interviewers": "Paul McNamara",
       "forms_completed": "1",
       "forms_expected": "1",
-      "level_fit": "Project Lead",
-      "red_flag": "No"
+      "level_fit": "",
+      "red_flag": "Not captured in ATS."
     }
   ],
   "candidateDetails": [
     {
-      "id": "aditi-maheshwari-ai-consultant-toronto-toronto",
-      "candidate_name": "Aditi Maheshwari",
-      "role_assessed_for": "AI Consultant | Toronto",
+      "id": "sanjana-santhosh-pai-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Sanjana Santhosh Pai",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
       "location": "Toronto",
       "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-24 12:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
+      "company": "Citi",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
       "overall_rating": null,
       "recommendation": "Not captured in ATS.",
       "red_flag_status": "Not captured in ATS.",
-      "strengths": "Feedback pending",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Feedback pending",
-      "stakeholder_summary": "Feedback pending",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
       "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
@@ -741,622 +1059,658 @@ window.TALENT_DATA = {
           "criteria": "consulting mindset",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "problem solving",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "client presence",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "adaptability",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "communication",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "commercial awareness",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         }
       ],
-      "next_step": "Feedback pending",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Unknown",
-      "source": "Workbook import",
-      "last_updated": "2026-06-24 12:00:00",
-      "notes": "Not captured in ATS."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
-      "id": "annet-shajan-ai-consultant-toronto-toronto",
-      "candidate_name": "Annet Shajan",
-      "role_assessed_for": "AI Consultant | Toronto",
+      "id": "james-sun-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "James Sun",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
       "location": "Toronto",
       "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-23 12:15:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Annet works for META through Accenture.",
+      "company": "Plot Ark",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- consulting toolkit",
-      "stakeholder_summary": "Annet works for META through Accenture.",
-      "suggested_level": "Associate",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": 2,
-          "note": "Q-1 Business judgement: 3, Q-2 Independent Thinking...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "problem solving",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3 | yes | yes",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "communication",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "commercial awareness",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         }
       ],
-      "next_step": "Proceed — '- consulting toolkit",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-23 12:15:00",
-      "notes": "Annet works for META through Accenture. She helps clients (enterprise and medium) to identify AI use cases and best Meta tools/ solutions to support them mostly in operations and marketing related areas. She has worked on vartied projects, is value driven, seems to build great connections with people. She'd like to work more on e2e projects. Has tech background Presented Associate level She would move to Toronto No sponsorship needed"
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
-      "id": "dhwani-soni-ai-consultant-toronto-toronto",
-      "candidate_name": "Dhwani Soni",
-      "role_assessed_for": "AI Consultant | Toronto",
+      "id": "ian-mcleod-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Ian Mcleod",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
       "location": "Toronto",
       "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-23 13:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Dhwani has experience from BCG, where she started with internal role (COE was kind of internal consulting), than...",
+      "company": "Ernst & Young (EY Studio+)",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- consulting toolkit",
-      "stakeholder_summary": "Dhwani has experience from BCG, where she started with internal role (COE was kind of internal consulting), than...",
-      "suggested_level": "Associate",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": 2,
-          "note": "Q-1 Business judgement: 3, Q-3 Structured problem...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "problem solving",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-3 Proactive...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-3 Proactive...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "communication",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "commercial awareness",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         }
       ],
-      "next_step": "Proceed — '- consulting toolkit",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-23 13:00:00",
-      "notes": "Dhwani has experience from BCG, where she started with internal role (COE was kind of internal consulting), than successfully transitioned to client facing Associate. She has left BCG because of her move to Canada, she is already in Toronto. She has tech related background and expertise and AI is the next area she wants to grow in but she does not have direct experience or skills there yet. She claims to be a fast learner. This means she is a 'normal' consultant cantidate not AI SME - in my opinion still wort progressing. She was presented Asso level."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
-      "id": "fahad-hafeez-ai-consultant-toronto-toronto",
+      "id": "tiffany-chau-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Tiffany Chau",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
+      "location": "Toronto",
+      "current_stage": "HR Interview",
+      "company": "Deloitte, Accenture",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "gaetano-pannia-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Gaetano Pannia",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
+      "location": "Toronto",
+      "current_stage": "HR Interview",
+      "company": "IBM",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "fahad-hafeez-ai-transformation-consultant-toronto-toronto",
       "candidate_name": "Fahad Hafeez",
-      "role_assessed_for": "AI Consultant | Toronto",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
       "location": "Toronto",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-24 13:15:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
+      "current_stage": "1st Interview - Take Home Case",
+      "company": "Next Generation Manufacturing Canada (NGen Canada)",
+      "interview_date": "2026-07-08 17:00:00",
+      "latest_feedback_reference": "1st Interview - Take Home Case / Sevinc Caglar",
       "overall_rating": null,
       "recommendation": "Not captured in ATS.",
       "red_flag_status": "Not captured in ATS.",
-      "strengths": "Feedback pending",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Feedback pending",
-      "stakeholder_summary": "Feedback pending",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
       "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "problem solving",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "client presence",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "adaptability",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "communication",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         }
       ],
-      "next_step": "Feedback pending",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Unknown",
-      "source": "Workbook import",
-      "last_updated": "2026-06-24 13:15:00",
-      "notes": "Not captured in ATS."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
-      "id": "sherv-alaghehbandi-ai-consultant-toronto-toronto",
-      "candidate_name": "Sherv Alaghehbandi",
-      "role_assessed_for": "AI Consultant | Toronto",
+      "id": "dhwani-soni-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Dhwani Soni",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
       "location": "Toronto",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-17 13:15:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Relevant experience form public and private sectors.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- consulting toolkit - AI",
-      "stakeholder_summary": "Relevant experience form public and private sectors.",
-      "suggested_level": "Consultant",
-      "client_trust": "Not captured in ATS.",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": 2,
-          "note": "Q-1 Business judgement: 3, Q-2 Independent Thinking...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-2 Collaborative...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-2 Collaborative...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Proceed — '- consulting toolkit - AI",
-      "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-17 13:15:00",
-      "notes": "Relevant experience form public and private sectors. Has AI implementation experience for the clients and his own product. He enjoys condulting for the speed and variety, he is looking for a new place in Toronto (just moved here) where he could do more varied work (now mostly linked to compliance) and grow. Was responsible for streams of work, was acting manager at KPMG. Presented Consultant level. Very good culture fit."
-    },
-    {
-      "id": "shivashish-ghosh-ai-consultant-toronto-toronto",
-      "candidate_name": "Shivashish Ghosh",
-      "role_assessed_for": "AI Consultant | Toronto",
-      "location": "Toronto",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-22 10:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Relevant experience, strong AI expertise, incl.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- consulting toolkit - structure",
-      "stakeholder_summary": "Relevant experience, strong AI expertise, incl.",
-      "suggested_level": "Consultant",
-      "client_trust": "Not captured in ATS.",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": 2,
-          "note": "Q-1 Business judgement: 3, Q-2 Independent Thinking...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-2 Collaborative...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-2 Collaborative...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Proceed — '- consulting toolkit - structure",
-      "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-22 10:00:00",
-      "notes": "Relevant experience, strong AI expertise, incl. tech related. Has BD experience and seems to be very structured. He's looking for aconsulting role for the variety and growth. Citizen Presented Con level"
-    },
-    {
-      "id": "zaid-abdulaziz-ai-consultant-toronto-toronto",
-      "candidate_name": "Zaid Abdulaziz",
-      "role_assessed_for": "AI Consultant | Toronto",
-      "location": "Toronto",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-22 15:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 2.0,
-      "recommendation": "Yes",
-      "red_flag_status": "Major",
-      "strengths": "no consulting experience.",
-      "concerns": "Major",
-      "what_to_test_next": "Proceed",
-      "stakeholder_summary": "no consulting experience.",
-      "suggested_level": "Graduate",
-      "client_trust": "Not captured in ATS.",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 2,
-          "note": "Q-1 Concise and effective communication: 2, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 2,
-          "note": "Q-1 Concise and effective communication: 2, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Proceed",
-      "status": "Active",
-      "risk_level": "High",
-      "source": "Workbook import",
-      "last_updated": "2026-06-22 15:00:00",
-      "notes": "no consulting experience."
-    },
-    {
-      "id": "klaudyna-szurgot-ai-consultant-warsaw-warsaw",
-      "candidate_name": "Klaudyna Szurgot",
-      "role_assessed_for": "AI Consultant | Warsaw",
-      "location": "Warsaw",
       "current_stage": "1st Interview - Take Home Case",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-16 07:00:00",
-      "latest_feedback_reference": "Take Home Case PPT Interview / Michal Rosolowski",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Klaudyna came across as a confident and capable candidate — easy to talk to, open to feedback in the room, and...",
+      "company": "Viva Jewels",
+      "interview_date": "2026-07-07 20:00:00",
+      "latest_feedback_reference": "1st Interview - Take Home Case / Sevinc Caglar",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "The main development area is structured communications: she should get familiar with exec summary conventions, SCM, MECE, and the Pyramid Principle before the next round. That's the one thing worth probing and testing directly next time.",
-      "stakeholder_summary": "Klaudyna came across as a confident and capable candidate — easy to talk to, open to feedback in the room, and...",
-      "suggested_level": "Consultant",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": 3,
-          "note": "yes | Q-1 Rationale and defensibility: 3, Q-2...",
-          "source": "workbook"
+          "score": null,
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": 1,
-          "note": "yes | Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3...",
-          "source": "workbook"
+          "score": null,
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Structures the answer in a logical: 3, Q-2 Ability...",
-          "source": "workbook"
+          "score": null,
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": 1,
-          "note": "Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3 Actively...",
-          "source": "workbook"
+          "score": null,
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": 3,
-          "note": "yes | Q-1 Structures the answer in a logical: 3, Q-2...",
-          "source": "workbook"
+          "score": null,
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         }
       ],
-      "next_step": "Proceed — The main development area is structured communications: she should get familiar with exec summary conventions, SCM, MECE, and the Pyramid Principle before the next round. That's the one thing worth probing and testing directly next time.",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-16 07:00:00",
-      "notes": "Klaudyna came across as a confident and capable candidate — easy to talk to, open to feedback in the room, and clearly someone who has done the real work, not just advised on it. The combination of hands-on AI delivery and consulting experience is appreciated. Overall a positive impression and worth progressing. **Key Observations** **(+) Strong AI and consulting profile.** She has built actual LLM-based solutions — not just run workshops — and has the consulting background to sit comfortably with senior stakeholders. That combination is uncommon and directly relevant. **(+) Natural and composed.** The conversation flowed well and she handled the unexpected presentation request with good composure. The intro was improvised and landed professionally. **(+) Presents, doesn't read.** She paraphrased rather than reciting slides, which made the delivery feel confident and client-ready. **(+) Slides have structure and logic.** The deck had a clear thread and so-what oriented titles — a good sign for version one, with room to develop further. **(+) Strong synthesis of client pain points.** The summary of GNP challenges was well-framed and grounded in quotes. Shows she knows how to listen and distil. **(+) Receptive to feedback.** Took comments well and engaged constructively in the moment. **(−) No executive summary slide.** The deck jumped straight into the content without pulling the key message upfront. A single strong opening slide would have made the whole thing land faster and sharper. **(−) Limited use of structured communication frameworks.** She showed some natural instinct for structure but has limited familiarity with SCM, the Pyramid Principle, and MECE thinking. It showed in how the slides were built. **(−) Only two slides were really working.** The rest of the deck had potential but didn't fully deliver. An exec summary, a risks slide, and an action plan would have rounded it out. **Recommendation** Proceed to next stage. The candidate shows more capability than the slides demonstrate — the thinking is there, the delivery is there, the experience is genuine. The main development area is structured communications: she should get familiar with exec summary conventions, SCM, MECE, and the Pyramid Principle before the next round. That's the one thing worth probing and testing directly next time."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "annet-shajan-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Annet Shajan",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
+      "location": "Toronto",
+      "current_stage": "1st Interview - Take Home Case",
+      "company": "Accenture",
+      "interview_date": "2026-07-02 19:00:00",
+      "latest_feedback_reference": "1st Interview - Take Home Case / Nikhil Josh",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
       "id": "grzegorz-bie-associate-consultant-warsaw-warsaw",
       "candidate_name": "Grzegorz Bień",
+      "role": "Associate Consultant | Warsaw",
       "role_assessed_for": "Associate Consultant | Warsaw",
+      "office_location": "Warsaw",
+      "office": "Warsaw",
       "location": "Warsaw",
-      "current_stage": "1st Interview - Take Home Case",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-22 07:00:00",
-      "latest_feedback_reference": "Take Home Case PPT Interview / Michal Rosolowski",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Feedback for Grzegorz Grzegorz shows genuine consulting potential and we are happy to move him forward to the next...",
+      "current_stage": "3rd Round Interview",
+      "company": "Accenture",
+      "interview_date": "2026-06-29 09:00:00",
+      "latest_feedback_reference": "1st Interview - Take Home Case / Piotr Mocny",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "- Overall: Good candidate with useful previous experience as a consultant.\n- Consulting Skills: Knowing the consulting business.\n- Knowing frameworks and how to apply them.\n- Understanding the consulting process.\n- Good business judgement.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "The primary area to work on is presentation delivery using SCR and pyramid approach.",
-      "stakeholder_summary": "Feedback for Grzegorz Grzegorz shows genuine consulting potential and we are happy to move him forward to the next...",
-      "suggested_level": "Associate",
-      "client_trust": "Not captured in ATS.",
+      "what_to_test_next": "Creativity and depth of solution. Structuring of approach.",
+      "stakeholder_summary": "- Overall: Good candidate with useful previous experience as a consultant.\n- Consulting Skills: Knowing the consulting business.\n- Knowing frameworks and how to apply them.\n- Understanding the consulting process.\n- Good business judgement.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Yes",
       "scorecard": [
         {
           "criteria": "consulting mindset",
           "score": 3,
-          "note": "yes | Q-1 Rationale and defensibility: 3, Q-2...",
-          "source": "workbook"
+          "note": "3",
+          "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": 1,
-          "note": "yes | Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3...",
-          "source": "workbook"
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
         },
         {
           "criteria": "client presence",
           "score": 3,
-          "note": "Q-1 Structures the answer in a logical: 2, Q-2 Ability...",
-          "source": "workbook"
+          "note": "3",
+          "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": 1,
-          "note": "Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3 Actively...",
-          "source": "workbook"
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "communication",
           "score": 3,
-          "note": "yes | Q-1 Structures the answer in a logical: 2, Q-2...",
-          "source": "workbook"
+          "note": "3",
+          "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
         }
       ],
-      "next_step": "Proceed — The primary area to work on is presentation delivery using SCR and pyramid approach.",
+      "next_step": "Creativity and depth of solution. Structuring of approach.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-22 07:00:00",
-      "notes": "Feedback for Grzegorz Grzegorz shows genuine consulting potential and we are happy to move him forward to the next stage, though at Associate rather than Consultant level. His deck quality is strong, but his presentation delivery needs meaningful improvement before he is ready to perform confidently in front of a client. Strengths The presentation was well-structured with a clear focus on the so-what, next steps, risks, and a concrete plan forward. Visuals were neat and closely aligned with the Adaptovate style. The intro and context-setting landed well, giving the audience a solid foundation. Most notably, Grzegorz drew a strong connection between the problems identified and the success metrics proposed in the way forward — this kind of end-to-end thinking is a real positive. Areas for Development The primary area to work on is presentation delivery, particularly in English. Grzegorz spent too long on each slide, struggled to maintain structured talk tracks, drifted into unnecessary detail, and at times stuttered in a way that created anxiety for the audience. This needs focused practice, as confident and fluid delivery is essential in a client-facing role. On the slide craft side, titles should be pushed further toward the so-what style — the key message should be immediately clear from the title alone. Adding more quotes to the as-is analysis would strengthen the case for change and make the findings more credible and compelling. Grzegorz should also make greater use of structuring frameworks such as SCR and the Pyramid Principle, both for slide layout and for scripting his verbal delivery."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "- Overall: Good candidate with useful previous experience as a consultant.\n- Consulting Skills: Knowing the consulting business.\n- Knowing frameworks and how to apply them.\n- Understanding the consulting process.\n- Good business judgement.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
       "id": "piotr-broda-consultant-warsaw-warsaw",
       "candidate_name": "Piotr Broda",
+      "role": "Consultant | Warsaw",
       "role_assessed_for": "Consultant | Warsaw",
+      "office_location": "Warsaw",
+      "office": "Warsaw",
       "location": "Warsaw",
-      "current_stage": "2nd Interview - Case Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-17 13:00:00",
-      "latest_feedback_reference": "Consultant Case Interview / Piotr Mocny",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Very good at listening, capturing the information, rephrasing, asking questions and identifying objective and core...",
+      "current_stage": "3rd Round Interview",
+      "company": "Cyrantos",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Structured thinking. Usage of frameworks",
-      "stakeholder_summary": "Very good at listening, capturing the information, rephrasing, asking questions and identifying objective and core...",
-      "suggested_level": "Associate",
-      "client_trust": "Yes",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
@@ -1401,98 +1755,106 @@ window.TALENT_DATA = {
           "source": "workbook"
         }
       ],
-      "next_step": "Proceed — Structured thinking. Usage of frameworks",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-17 13:00:00",
-      "notes": "Very good at listening, capturing the information, rephrasing, asking questions and identifying objective and core problem. Results of the case satisfactory, had some good ideas focused on the core, though structure of the speech weak (no upfront structure, linear thinking). Combines soft and hard aspects of the solution. Good questions about ADAPTOVATE. It is clear to him that BD is part of the job (asked about it himself). Problem solving good, great judgment (especially for a relatively junior position), weaker structure. Good communicator, convincing, clear, very good listening. Good teaming and motivation. Relevant experience."
-    },
-    {
-      "id": "bartosz-szpak-consultant-warsaw-warsaw",
-      "candidate_name": "Bartosz Szpak",
-      "role_assessed_for": "Consultant | Warsaw",
-      "location": "Warsaw",
-      "current_stage": "1st Interview - Take Home Case",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-19 07:00:00",
-      "latest_feedback_reference": "Take Home Case PPT Interview / Michal Rosolowski",
-      "overall_rating": 2.0,
-      "recommendation": "No",
-      "red_flag_status": "No",
-      "strengths": "Feedback for BartoszFeedback for Bartosz Overall, Bartosz is not yet ready for independent client-facing delivery.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Do not proceed",
-      "stakeholder_summary": "Feedback for BartoszFeedback for Bartosz Overall, Bartosz is not yet ready for independent client-facing delivery.",
-      "suggested_level": "N/A (Not recommended for hire)",
-      "client_trust": "Not captured in ATS.",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": 3,
-          "note": "no | Q-1 Rationale and defensibility: 3, Q-2...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": 1,
-          "note": "yes | Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Structures the answer in a logical: 2, Q-2 Ability...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": 1,
-          "note": "Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3 Actively...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 3,
-          "note": "yes | Q-1 Structures the answer in a logical: 2, Q-2...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Do not proceed",
-      "status": "Active",
-      "risk_level": "High",
-      "source": "Workbook import",
-      "last_updated": "2026-06-19 07:00:00",
-      "notes": "Feedback for BartoszFeedback for Bartosz Overall, Bartosz is not yet ready for independent client-facing delivery. While he demonstrates solid analytical ability and preparation, the gap between his comfort with research and his ability to present it confidently as a consultant carries too much risk in a real client context. Strengths Bartosz put together a well-structured presentation with a strong title slide and effective use of quotes to build the case for change. The exec summary was delivered naturally and with confidence. He also showed good consulting instinct by anticipating next steps, and throughout the session he was approachable, receptive to feedback, and easy to work with. Areas for Development The most critical issue is client-facing readiness. Bartosz was visibly more comfortable explaining the thinking behind his slides than actually presenting them in a consultant-led way. This is a significant risk — client situations regularly demand ad-hoc, confident delivery, and professional consultants need to own their material regardless of circumstances. When asked about whether he prefereed collaborative mode with client or solo work - he liked the latter more, which is against ADAPTOVATE way of working by default. Beyond delivery, there is a mindset shift needed. Bartosz tends to focus on demonstrating the quality of his analysis and process rather than driving toward outcomes and client impact. This can come across as proving knowledge rather than serving the client, and a more modest, outcome-oriented approach is needed. On the technical side, the Adaptovate template was barely applied, which needs to be corrected. Slide titles were weaker than the subtitles and should carry the key message instead. There was also a noticeable disconnect between the challenges identified and the solutions proposed, which weakened the overall narrative."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
       "id": "kanishka-banerji-managing-director-partner-mdp-texas-texas",
       "candidate_name": "Kanishka Banerji",
+      "role": "Managing Director Partner (MDP) | Texas",
       "role_assessed_for": "Managing Director Partner (MDP) | Texas",
+      "office_location": "Texas",
+      "office": "Texas",
       "location": "Texas",
-      "current_stage": "1st Interview",
-      "company": "ADAPTOVATE",
+      "current_stage": "2nd Interview - Case Interview",
+      "company": "ERNST & YOUNG LLP (EY)",
       "interview_date": "2026-06-24 20:30:00",
-      "latest_feedback_reference": "Partner & Office Lead HR Interview / Simmy Li",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Deep Oil & Gas sector experience.",
+      "latest_feedback_reference": "1st Interview - Non Take Home Case/Consulting Track / Jeffrey von Drehnen",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "- Kanishka Banerji — 1st Interview Notes Jeff von Drehnen | Jun 25, 2026 Background & Experience Wants to leverage his experience to replicate and build a consulting bus...\n- Upstream and downstream exposure.\n- Core work spans digital transformation, org design, and exec roadmapping — strong emphasis on transformation.\n- Main clients: ExxonMobil, BP, Chevron.\n- Middle East experience via Chevron — set up digital transformation operations there.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- if has the start up sales skills (if he can sales with EY name) - Fit - more as a delivery leader than a seller - He said he has a strong relationship with oil & gas people in Houston, check",
-      "stakeholder_summary": "Deep Oil & Gas sector experience.",
+      "what_to_test_next": "To Test Next 30/60/90 day plan Paul to run a case study with him to assess consulting approach",
+      "stakeholder_summary": "- Kanishka Banerji — 1st Interview Notes Jeff von Drehnen | Jun 25, 2026 Background & Experience Wants to leverage his experience to replicate and build a consulting bus...\n- Upstream and downstream exposure.\n- Core work spans digital transformation, org design, and exec roadmapping — strong emphasis on transformation.\n- Main clients: ExxonMobil, BP, Chevron.\n- Middle East experience via Chevron — set up digital transformation operations there.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": 3,
+          "note": "Q-1 Client Portfolio Expansion: 4, Q-2 Revenue...",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": 3,
+          "note": "Q-1 Concise and effective communication: 3, Q-2...",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": 1,
+          "note": "Q-1 Resilience and Independence: 0, Q-2 Team player:...",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": 2,
+          "note": "Q-1 Team Development: 0, Q-2 Client Project...",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "communication",
+          "score": 3,
+          "note": "Q-1 Concise and effective communication: 3, Q-2...",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": 3,
+          "note": "Q-1 Client Portfolio Expansion: 4, Q-2 Revenue...",
+          "source": "latest_export"
+        }
+      ],
+      "next_step": "To Test Next 30/60/90 day plan Paul to run a case study with him to assess consulting approach",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "- Kanishka Banerji — 1st Interview Notes Jeff von Drehnen | Jun 25, 2026 Background & Experience Wants to leverage his experience to replicate and build a consulting bus...\n- Upstream and downstream exposure.\n- Core work spans digital transformation, org design, and exec roadmapping — strong emphasis on transformation.\n- Main clients: ExxonMobil, BP, Chevron.\n- Middle East experience via Chevron — set up digital transformation operations there.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "russ-warren-managing-director-partner-mdp-texas-texas",
+      "candidate_name": "Russ Warren",
+      "role": "Managing Director Partner (MDP) | Texas",
+      "role_assessed_for": "Managing Director Partner (MDP) | Texas",
+      "office_location": "Texas",
+      "office": "Texas",
+      "location": "Texas",
+      "current_stage": "3rd Round Interview",
+      "company": "Accenture (Energy Strategy MD)",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
       "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
@@ -1500,345 +1862,730 @@ window.TALENT_DATA = {
           "criteria": "consulting mindset",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "problem solving",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "client presence",
-          "score": 2,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "adaptability",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "leadership",
-          "score": 2,
-          "note": "Q-1 Professional Network: 3",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "communication",
-          "score": 2,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "commercial awareness",
-          "score": 2,
-          "note": "Q-1 Client Portfolio Expansion: 3 | Q-1 Professional...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         }
       ],
-      "next_step": "Proceed — '- if has the start up sales skills (if he can sales with EY name) - Fit - more as a delivery leader than a seller - He said he has a strong relationship with oil & gas people in Houston, check",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-24 20:30:00",
-      "notes": "Deep Oil & Gas sector experience. Key clients include Chevron and BP. Experience working across both Canada and US markets. Good relationships, including BP CIO. Need to assess sales capability outside the EY brand. Comes across more as a delivery leader than a natural seller. \"Good student\" profile; less evidence of entrepreneurial sales behaviour. Check the fit Client Restrictions Chevron: 2-year cooling-off period. BP: approximately 1-year cooling-off period. Other client restrictions vary by account involvement. If not directly involved in an account, restrictions may be reduced. Potential to leverage relationships where permitted. Some accounts may have restrictions as short as 6 months."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
-      "id": "mark-hill-principal-consulting-london-london",
-      "candidate_name": "Mark Hill",
+      "id": "vinay-kumar-principal-consulting-london-uk",
+      "candidate_name": "Vinay Kumar",
+      "role": "Principal | Consulting | London",
       "role_assessed_for": "Principal | Consulting | London",
-      "location": "London",
-      "current_stage": "1st Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-19 13:00:00",
-      "latest_feedback_reference": "Final Consultant Case Interview / Alex Rebkowski",
-      "overall_rating": 3.0,
-      "recommendation": "Proceed to case and UK review",
-      "red_flag_status": "No",
-      "strengths": "Sales focus and client-facing confidence",
-      "concerns": "Consulting toolkit needs case testing",
-      "what_to_test_next": "Case toolkit and UK team fit",
-      "stakeholder_summary": "Commercial Principal candidate; needs case validation",
-      "suggested_level": "Project Lead",
-      "client_trust": "Medium-high; commercial strength, case unproven",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": 2,
-          "note": "Q-1 Business judgement: 3 | Q-2 Independent Thinking...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": 3,
-          "note": "Q-3 Structured problem solving: 3 | Q-3 Structured...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 3,
-          "note": "Q-3 Client Leadership Under Pressure: 3",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-2 Active listening and understanding: 3 | Q-2...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": 3,
-          "note": "Q-3 Client Leadership Under Pressure: 3",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 2 | Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": 3,
-          "note": "Q-1 Business judgement: 3 | Q-1 Industry & Market...",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Run case; test UK team fit",
-      "status": "Active",
-      "risk_level": "Low",
-      "source": "Workbook import",
-      "last_updated": "2026-06-19 13:00:00",
-      "notes": "Mark is very commercially focused with experience with sales in Consulting. He seems to understand what we do although he has been mostly focused on CX and CRM implementations. Need to test his consulting toolkit through a case study as I treated this interview more as an intro to what we do. Need to also test fit with David Storie and the UK team."
-    },
-    {
-      "id": "prathieban-sathanathan-principal-consulting-london-london",
-      "candidate_name": "Prathieban Sathanathan",
-      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
       "location": "London",
       "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-12 07:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Proceed to next interview",
-      "red_flag_status": "No",
-      "strengths": "Sales targets and smaller-firm motivation",
-      "concerns": "Principal level fit needs testing",
-      "what_to_test_next": "'- if he would make Principal",
-      "stakeholder_summary": "Principal-motivated candidate with sales experience",
-      "suggested_level": "Principal",
-      "client_trust": "Medium-high; HR feedback positive",
+      "company": "NESO (National Energy System Operator)",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": 3,
-          "note": "Q-1 Business judgement: 3 | Q-2 Independent Thinking...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "problem solving",
-          "score": 3,
-          "note": "Q-3 Structured problem solving: 3",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "adaptability",
-          "score": 3,
-          "note": "Q-2 Active listening: 3 | Q-1 Motivation for the Role:...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "hugo-godson-treacy-senior-consultant-london-uk",
+      "candidate_name": "Hugo Godson Treacy",
+      "role": "Senior Consultant | London",
+      "role_assessed_for": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "EY Ireland",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "vishal-gupta-principal-consulting-london-uk",
+      "candidate_name": "Vishal Gupta",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Hitachi",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "robin-blackburn-principal-consulting-london-uk",
+      "candidate_name": "Robin Blackburn",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Welcomm Communications, OSF Digital, Frost & Sullivan, Imperial Health Sciences, Ericsson, System21",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "jeremy-stevens-principal-consulting-london-uk",
+      "candidate_name": "Jeremy Stevens",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Technoworks",
+      "interview_date": "2026-06-26 09:00:00",
+      "latest_feedback_reference": "HR Interview / Agata Przespolewska",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "- Very comertially driven.\n- Works as a contractor, wants a permanent role to leverage his network (says he has a solid black book) and remain reliable for the clients.\n- worth a talk.\n- presented PL ans Principal salaries",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "'-sales",
+      "stakeholder_summary": "- Very comertially driven.\n- Works as a contractor, wants a permanent role to leverage his network (says he has a solid black book) and remain reliable for the clients.\n- worth a talk.\n- presented PL ans Principal salaries",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": 3,
+          "note": "3 | yes | yes",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "communication",
           "score": 3,
-          "note": "Q-1 Concise and effective communication: 3 | Q-2 Active...",
-          "source": "workbook"
+          "note": "3",
+          "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
           "score": 3,
-          "note": "Q-1 Business judgement: 3 | Q-1 Industry & Market...",
-          "source": "workbook"
+          "note": "3",
+          "source": "latest_export"
         }
       ],
-      "next_step": "Test Principal readiness",
+      "next_step": "'-sales",
       "status": "Active",
-      "risk_level": "Low",
-      "source": "Workbook import",
-      "last_updated": "2026-06-12 07:00:00",
-      "notes": "He would only be interested in Principal level as his next career move. He's looking for a smaller firm to make an impact. Lots of sales exp., working with targets. Presented salaries for PL and Principal"
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "- Very comertially driven.\n- Works as a contractor, wants a permanent role to leverage his network (says he has a solid black book) and remain reliable for the clients.\n- worth a talk.\n- presented PL ans Principal salaries",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
-      "id": "ash-sheikh-senior-consultant-london-london",
-      "candidate_name": "Ash Sheikh",
+      "id": "lucas-adamik-principal-consulting-london-uk",
+      "candidate_name": "Lucas Adamik",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Symetri",
+      "interview_date": "2026-06-26 10:00:00",
+      "latest_feedback_reference": "HR Interview / Agata Przespolewska",
+      "overall_rating": 2,
+      "recommendation": "yes",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "- experience mostly in consulting, manufacturing, gov.\n- Focused on sales and growth.\n- Calm domenour.\n- Polish guy.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "'-sales -energy",
+      "stakeholder_summary": "- experience mostly in consulting, manufacturing, gov.\n- Focused on sales and growth.\n- Calm domenour.\n- Polish guy.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "communication",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        }
+      ],
+      "next_step": "'-sales -energy",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "- experience mostly in consulting, manufacturing, gov.\n- Focused on sales and growth.\n- Calm domenour.\n- Polish guy.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "claire-robinson-principal-consulting-london-uk",
+      "candidate_name": "Claire Robinson",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Ivelium Marketing",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "rob-wells-principal-consulting-london-uk",
+      "candidate_name": "Rob Wells",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Nicklaus Brown & Co",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "kajal-soneji-senior-consultant-london-uk",
+      "candidate_name": "Kajal Soneji",
+      "role": "Senior Consultant | London",
       "role_assessed_for": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Grant Thornton",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "justin-elias-senior-consultant-london-uk",
+      "candidate_name": "Justin Elias",
+      "role": "Senior Consultant | London",
+      "role_assessed_for": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
       "location": "London",
       "current_stage": "1st Interview - Non Take Home Case/Consulting Track",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-11 08:00:00",
-      "latest_feedback_reference": "Take Home Case PPT Interview / Piotr Mocny",
-      "overall_rating": 2.0,
-      "recommendation": "No",
-      "red_flag_status": "Major",
-      "strengths": "Gives the feeling of a senior Agile Coach - not a rounded consultant.",
-      "concerns": "Major",
-      "what_to_test_next": "Commerciality. Number-based business thinking (consulting skills vs. coaching)",
-      "stakeholder_summary": "Gives the feeling of a senior Agile Coach - not a rounded consultant.",
-      "suggested_level": "Project Lead",
-      "client_trust": "No",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": 3,
-          "note": "no | Q-1 Rationale and defensibility: 2, Q-2...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": 2,
-          "note": "yes | Q-1 Self-motivated: 2, Q-2 Team player: 3, Q-3...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Structures the answer in a logical: 2, Q-2 Ability...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-1 Self-motivated: 2, Q-2 Team player: 3, Q-3 Actively...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 3,
-          "note": "no | Q-1 Structures the answer in a logical: 2, Q-2...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Do not proceed — Commerciality. Number-based business thinking (consulting skills vs. coaching)",
-      "status": "Active",
-      "risk_level": "High",
-      "source": "Workbook import",
-      "last_updated": "2026-06-11 08:00:00",
-      "notes": "Gives the feeling of a senior Agile Coach - not a rounded consultant. Slides - \"agile-coach\" type (directional/motivational - less content). Senior, but following the self-imposed thinking about one objective/step at a time. Has a tendency to \"preach\" his approach. While presenting his approach has not stopped/invited me for questions/comments at another moment than before or after the presentation. Held a long monologue. Wants to develop people. Plans to change because of values (objecting his current start-up delaying payments to small vendors). A contrarian nature - might come through controversial. Difficult for me to imagine him being a successful BD manager or a number driven consultants ."
-    },
-    {
-      "id": "johan-dewald-viljoen-senior-consultant-london-london",
-      "candidate_name": "Johan Dewald Viljoen",
-      "role_assessed_for": "Senior Consultant | London",
-      "location": "London",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-12 10:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
+      "company": "Collinson Grant",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
       "overall_rating": null,
-      "recommendation": "Pending feedback",
+      "recommendation": "Not captured in ATS.",
       "red_flag_status": "Not captured in ATS.",
-      "strengths": "Feedback pending",
-      "concerns": "Feedback missing from interview panel",
-      "what_to_test_next": "Collect interviewer feedback first",
-      "stakeholder_summary": "Pending feedback; interview incomplete",
-      "suggested_level": "Not captured in ATS.",
-      "client_trust": "Low data; feedback missing",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Close pending interviewer feedback",
-      "status": "Active",
-      "risk_level": "Unknown",
-      "source": "Workbook import",
-      "last_updated": "2026-06-12 10:00:00",
-      "notes": "Not captured in ATS."
-    },
-    {
-      "id": "justin-elias-senior-consultant-london-london",
-      "candidate_name": "Justin Elias",
-      "role_assessed_for": "Senior Consultant | London",
-      "location": "London",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-11 08:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Candidate with lot's of experience in operation, sales, consulting.",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- sales",
-      "stakeholder_summary": "Candidate with lot's of experience in operation, sales, consulting.",
-      "suggested_level": "Project Lead",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
@@ -1884,31 +2631,546 @@ window.TALENT_DATA = {
           "source": "workbook"
         }
       ],
-      "next_step": "Proceed — '- sales",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-11 08:00:00",
-      "notes": "Candidate with lot's of experience in operation, sales, consulting. Last year he went on self employment and works with Collinson as an Associate- contractor. Previously was a Director. He'd be up for both permanent role as well as contracting (maybe worth considering as a trial?) Not a problem to be in London as much as needed. Has exp. in different markets- France, Saudi, Japan Available quickly. Presented PL ans Pri salaries- ok with both, previously had 120k, daily rate up to1k"
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "prathleban-sathananthan-principal-consulting-london-uk",
+      "candidate_name": "Prathleban Sathananthan",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "1st Interview - Non Take Home Case/Consulting Track",
+      "company": "EY",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "priyasmita-ghose-principal-consulting-london-uk",
+      "candidate_name": "Priyasmita Ghose",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "1st Interview - Non Take Home Case/Consulting Track",
+      "company": "Fractal Analytics",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "giles-boorman-principal-consulting-london-uk",
+      "candidate_name": "Giles Boorman",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "1st Interview - Non Take Home Case/Consulting Track",
+      "company": "North Highland UK",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "neha-jaiswal-senior-consultant-london-uk",
+      "candidate_name": "Neha Jaiswal",
+      "role": "Senior Consultant | London",
+      "role_assessed_for": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "2nd Interview - Case Interview",
+      "company": "Greybook Ltd",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "joshua-huggins-senior-consultant-london-uk",
+      "candidate_name": "Joshua Huggins",
+      "role": "Senior Consultant | London",
+      "role_assessed_for": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "2nd Interview - Case Interview",
+      "company": "Accenture",
+      "interview_date": "2026-06-30 15:00:00",
+      "latest_feedback_reference": "2nd Interview - Case Interview / David Storrie",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "agrima-bhutani-project-lead-consulting-london-uk",
+      "candidate_name": "Agrima Bhutani",
+      "role": "Project Lead | Consulting | London",
+      "role_assessed_for": "Project Lead | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "2nd Interview - Case Interview",
+      "company": "Efficio Consulting",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    {
+      "id": "mark-hill-principal-consulting-london-uk",
+      "candidate_name": "Mark Hill",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "3rd Round Interview",
+      "company": "Lander Sports Investment Ltd",
+      "interview_date": "2026-07-06 08:00:00",
+      "latest_feedback_reference": "3rd Round Interview / Paul McNamara",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "- Mark presented well , provided a breadth of experience and also has exposure to what it means to build a small business in consulting , seems very pragmatic and commer...",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Test again his commerciality and fit for ADAPTOVATE needs.",
+      "stakeholder_summary": "- Mark presented well , provided a breadth of experience and also has exposure to what it means to build a small business in consulting , seems very pragmatic and commer...",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Yes",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "communication",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        }
+      ],
+      "next_step": "Test again his commerciality and fit for ADAPTOVATE needs.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "- Mark presented well , provided a breadth of experience and also has exposure to what it means to build a small business in consulting , seems very pragmatic and commer...",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     }
   ],
   "candidateLookup": {
-    "Aditi Maheshwari": {
-      "id": "aditi-maheshwari-ai-consultant-toronto-toronto",
-      "candidate_name": "Aditi Maheshwari",
-      "role_assessed_for": "AI Consultant | Toronto",
+    "Sanjana Santhosh Pai": {
+      "id": "sanjana-santhosh-pai-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Sanjana Santhosh Pai",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
       "location": "Toronto",
       "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-24 12:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
+      "company": "Citi",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
       "overall_rating": null,
       "recommendation": "Not captured in ATS.",
       "red_flag_status": "Not captured in ATS.",
-      "strengths": "Feedback pending",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Feedback pending",
-      "stakeholder_summary": "Feedback pending",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
       "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
@@ -1916,622 +3178,658 @@ window.TALENT_DATA = {
           "criteria": "consulting mindset",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "problem solving",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "client presence",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "adaptability",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "communication",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "commercial awareness",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         }
       ],
-      "next_step": "Feedback pending",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Unknown",
-      "source": "Workbook import",
-      "last_updated": "2026-06-24 12:00:00",
-      "notes": "Not captured in ATS."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
-    "Annet Shajan": {
-      "id": "annet-shajan-ai-consultant-toronto-toronto",
-      "candidate_name": "Annet Shajan",
-      "role_assessed_for": "AI Consultant | Toronto",
+    "James Sun": {
+      "id": "james-sun-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "James Sun",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
       "location": "Toronto",
       "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-23 12:15:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Annet works for META through Accenture.",
+      "company": "Plot Ark",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- consulting toolkit",
-      "stakeholder_summary": "Annet works for META through Accenture.",
-      "suggested_level": "Associate",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": 2,
-          "note": "Q-1 Business judgement: 3, Q-2 Independent Thinking...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "problem solving",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3 | yes | yes",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "communication",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "commercial awareness",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         }
       ],
-      "next_step": "Proceed — '- consulting toolkit",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-23 12:15:00",
-      "notes": "Annet works for META through Accenture. She helps clients (enterprise and medium) to identify AI use cases and best Meta tools/ solutions to support them mostly in operations and marketing related areas. She has worked on vartied projects, is value driven, seems to build great connections with people. She'd like to work more on e2e projects. Has tech background Presented Associate level She would move to Toronto No sponsorship needed"
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
-    "Dhwani Soni": {
-      "id": "dhwani-soni-ai-consultant-toronto-toronto",
-      "candidate_name": "Dhwani Soni",
-      "role_assessed_for": "AI Consultant | Toronto",
+    "Ian Mcleod": {
+      "id": "ian-mcleod-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Ian Mcleod",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
       "location": "Toronto",
       "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-23 13:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Dhwani has experience from BCG, where she started with internal role (COE was kind of internal consulting), than...",
+      "company": "Ernst & Young (EY Studio+)",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- consulting toolkit",
-      "stakeholder_summary": "Dhwani has experience from BCG, where she started with internal role (COE was kind of internal consulting), than...",
-      "suggested_level": "Associate",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": 2,
-          "note": "Q-1 Business judgement: 3, Q-3 Structured problem...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "problem solving",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-3 Proactive...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-3 Proactive...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "communication",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "commercial awareness",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         }
       ],
-      "next_step": "Proceed — '- consulting toolkit",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-23 13:00:00",
-      "notes": "Dhwani has experience from BCG, where she started with internal role (COE was kind of internal consulting), than successfully transitioned to client facing Associate. She has left BCG because of her move to Canada, she is already in Toronto. She has tech related background and expertise and AI is the next area she wants to grow in but she does not have direct experience or skills there yet. She claims to be a fast learner. This means she is a 'normal' consultant cantidate not AI SME - in my opinion still wort progressing. She was presented Asso level."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Tiffany Chau": {
+      "id": "tiffany-chau-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Tiffany Chau",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
+      "location": "Toronto",
+      "current_stage": "HR Interview",
+      "company": "Deloitte, Accenture",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Gaetano Pannia": {
+      "id": "gaetano-pannia-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Gaetano Pannia",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
+      "location": "Toronto",
+      "current_stage": "HR Interview",
+      "company": "IBM",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     "Fahad Hafeez": {
-      "id": "fahad-hafeez-ai-consultant-toronto-toronto",
+      "id": "fahad-hafeez-ai-transformation-consultant-toronto-toronto",
       "candidate_name": "Fahad Hafeez",
-      "role_assessed_for": "AI Consultant | Toronto",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
       "location": "Toronto",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-24 13:15:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
+      "current_stage": "1st Interview - Take Home Case",
+      "company": "Next Generation Manufacturing Canada (NGen Canada)",
+      "interview_date": "2026-07-08 17:00:00",
+      "latest_feedback_reference": "1st Interview - Take Home Case / Sevinc Caglar",
       "overall_rating": null,
       "recommendation": "Not captured in ATS.",
       "red_flag_status": "Not captured in ATS.",
-      "strengths": "Feedback pending",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Feedback pending",
-      "stakeholder_summary": "Feedback pending",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
       "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "problem solving",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "client presence",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "adaptability",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "communication",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         }
       ],
-      "next_step": "Feedback pending",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Unknown",
-      "source": "Workbook import",
-      "last_updated": "2026-06-24 13:15:00",
-      "notes": "Not captured in ATS."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
-    "Sherv Alaghehbandi": {
-      "id": "sherv-alaghehbandi-ai-consultant-toronto-toronto",
-      "candidate_name": "Sherv Alaghehbandi",
-      "role_assessed_for": "AI Consultant | Toronto",
+    "Dhwani Soni": {
+      "id": "dhwani-soni-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Dhwani Soni",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
       "location": "Toronto",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-17 13:15:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Relevant experience form public and private sectors.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- consulting toolkit - AI",
-      "stakeholder_summary": "Relevant experience form public and private sectors.",
-      "suggested_level": "Consultant",
-      "client_trust": "Not captured in ATS.",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": 2,
-          "note": "Q-1 Business judgement: 3, Q-2 Independent Thinking...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-2 Collaborative...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-2 Collaborative...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Proceed — '- consulting toolkit - AI",
-      "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-17 13:15:00",
-      "notes": "Relevant experience form public and private sectors. Has AI implementation experience for the clients and his own product. He enjoys condulting for the speed and variety, he is looking for a new place in Toronto (just moved here) where he could do more varied work (now mostly linked to compliance) and grow. Was responsible for streams of work, was acting manager at KPMG. Presented Consultant level. Very good culture fit."
-    },
-    "Shivashish Ghosh": {
-      "id": "shivashish-ghosh-ai-consultant-toronto-toronto",
-      "candidate_name": "Shivashish Ghosh",
-      "role_assessed_for": "AI Consultant | Toronto",
-      "location": "Toronto",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-22 10:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Relevant experience, strong AI expertise, incl.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- consulting toolkit - structure",
-      "stakeholder_summary": "Relevant experience, strong AI expertise, incl.",
-      "suggested_level": "Consultant",
-      "client_trust": "Not captured in ATS.",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": 2,
-          "note": "Q-1 Business judgement: 3, Q-2 Independent Thinking...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-2 Collaborative...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-1 Motivation for the Role: 3, Q-2 Collaborative...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Proceed — '- consulting toolkit - structure",
-      "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-22 10:00:00",
-      "notes": "Relevant experience, strong AI expertise, incl. tech related. Has BD experience and seems to be very structured. He's looking for aconsulting role for the variety and growth. Citizen Presented Con level"
-    },
-    "Zaid Abdulaziz": {
-      "id": "zaid-abdulaziz-ai-consultant-toronto-toronto",
-      "candidate_name": "Zaid Abdulaziz",
-      "role_assessed_for": "AI Consultant | Toronto",
-      "location": "Toronto",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-22 15:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 2.0,
-      "recommendation": "Yes",
-      "red_flag_status": "Major",
-      "strengths": "no consulting experience.",
-      "concerns": "Major",
-      "what_to_test_next": "Proceed",
-      "stakeholder_summary": "no consulting experience.",
-      "suggested_level": "Graduate",
-      "client_trust": "Not captured in ATS.",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 2,
-          "note": "Q-1 Concise and effective communication: 2, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 2,
-          "note": "Q-1 Concise and effective communication: 2, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Proceed",
-      "status": "Active",
-      "risk_level": "High",
-      "source": "Workbook import",
-      "last_updated": "2026-06-22 15:00:00",
-      "notes": "no consulting experience."
-    },
-    "Klaudyna Szurgot": {
-      "id": "klaudyna-szurgot-ai-consultant-warsaw-warsaw",
-      "candidate_name": "Klaudyna Szurgot",
-      "role_assessed_for": "AI Consultant | Warsaw",
-      "location": "Warsaw",
       "current_stage": "1st Interview - Take Home Case",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-16 07:00:00",
-      "latest_feedback_reference": "Take Home Case PPT Interview / Michal Rosolowski",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Klaudyna came across as a confident and capable candidate — easy to talk to, open to feedback in the room, and...",
+      "company": "Viva Jewels",
+      "interview_date": "2026-07-07 20:00:00",
+      "latest_feedback_reference": "1st Interview - Take Home Case / Sevinc Caglar",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "The main development area is structured communications: she should get familiar with exec summary conventions, SCM, MECE, and the Pyramid Principle before the next round. That's the one thing worth probing and testing directly next time.",
-      "stakeholder_summary": "Klaudyna came across as a confident and capable candidate — easy to talk to, open to feedback in the room, and...",
-      "suggested_level": "Consultant",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": 3,
-          "note": "yes | Q-1 Rationale and defensibility: 3, Q-2...",
-          "source": "workbook"
+          "score": null,
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": 1,
-          "note": "yes | Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3...",
-          "source": "workbook"
+          "score": null,
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Structures the answer in a logical: 3, Q-2 Ability...",
-          "source": "workbook"
+          "score": null,
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": 1,
-          "note": "Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3 Actively...",
-          "source": "workbook"
+          "score": null,
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": 3,
-          "note": "yes | Q-1 Structures the answer in a logical: 3, Q-2...",
-          "source": "workbook"
+          "score": null,
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         }
       ],
-      "next_step": "Proceed — The main development area is structured communications: she should get familiar with exec summary conventions, SCM, MECE, and the Pyramid Principle before the next round. That's the one thing worth probing and testing directly next time.",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-16 07:00:00",
-      "notes": "Klaudyna came across as a confident and capable candidate — easy to talk to, open to feedback in the room, and clearly someone who has done the real work, not just advised on it. The combination of hands-on AI delivery and consulting experience is appreciated. Overall a positive impression and worth progressing. **Key Observations** **(+) Strong AI and consulting profile.** She has built actual LLM-based solutions — not just run workshops — and has the consulting background to sit comfortably with senior stakeholders. That combination is uncommon and directly relevant. **(+) Natural and composed.** The conversation flowed well and she handled the unexpected presentation request with good composure. The intro was improvised and landed professionally. **(+) Presents, doesn't read.** She paraphrased rather than reciting slides, which made the delivery feel confident and client-ready. **(+) Slides have structure and logic.** The deck had a clear thread and so-what oriented titles — a good sign for version one, with room to develop further. **(+) Strong synthesis of client pain points.** The summary of GNP challenges was well-framed and grounded in quotes. Shows she knows how to listen and distil. **(+) Receptive to feedback.** Took comments well and engaged constructively in the moment. **(−) No executive summary slide.** The deck jumped straight into the content without pulling the key message upfront. A single strong opening slide would have made the whole thing land faster and sharper. **(−) Limited use of structured communication frameworks.** She showed some natural instinct for structure but has limited familiarity with SCM, the Pyramid Principle, and MECE thinking. It showed in how the slides were built. **(−) Only two slides were really working.** The rest of the deck had potential but didn't fully deliver. An exec summary, a risks slide, and an action plan would have rounded it out. **Recommendation** Proceed to next stage. The candidate shows more capability than the slides demonstrate — the thinking is there, the delivery is there, the experience is genuine. The main development area is structured communications: she should get familiar with exec summary conventions, SCM, MECE, and the Pyramid Principle before the next round. That's the one thing worth probing and testing directly next time."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Annet Shajan": {
+      "id": "annet-shajan-ai-transformation-consultant-toronto-toronto",
+      "candidate_name": "Annet Shajan",
+      "role": "AI & Transformation Consultant | Toronto",
+      "role_assessed_for": "AI & Transformation Consultant | Toronto",
+      "office_location": "Toronto",
+      "office": "Toronto",
+      "location": "Toronto",
+      "current_stage": "1st Interview - Take Home Case",
+      "company": "Accenture",
+      "interview_date": "2026-07-02 19:00:00",
+      "latest_feedback_reference": "1st Interview - Take Home Case / Nikhil Josh",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     "Grzegorz Bień": {
       "id": "grzegorz-bie-associate-consultant-warsaw-warsaw",
       "candidate_name": "Grzegorz Bień",
+      "role": "Associate Consultant | Warsaw",
       "role_assessed_for": "Associate Consultant | Warsaw",
+      "office_location": "Warsaw",
+      "office": "Warsaw",
       "location": "Warsaw",
-      "current_stage": "1st Interview - Take Home Case",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-22 07:00:00",
-      "latest_feedback_reference": "Take Home Case PPT Interview / Michal Rosolowski",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Feedback for Grzegorz Grzegorz shows genuine consulting potential and we are happy to move him forward to the next...",
+      "current_stage": "3rd Round Interview",
+      "company": "Accenture",
+      "interview_date": "2026-06-29 09:00:00",
+      "latest_feedback_reference": "1st Interview - Take Home Case / Piotr Mocny",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "- Overall: Good candidate with useful previous experience as a consultant.\n- Consulting Skills: Knowing the consulting business.\n- Knowing frameworks and how to apply them.\n- Understanding the consulting process.\n- Good business judgement.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "The primary area to work on is presentation delivery using SCR and pyramid approach.",
-      "stakeholder_summary": "Feedback for Grzegorz Grzegorz shows genuine consulting potential and we are happy to move him forward to the next...",
-      "suggested_level": "Associate",
-      "client_trust": "Not captured in ATS.",
+      "what_to_test_next": "Creativity and depth of solution. Structuring of approach.",
+      "stakeholder_summary": "- Overall: Good candidate with useful previous experience as a consultant.\n- Consulting Skills: Knowing the consulting business.\n- Knowing frameworks and how to apply them.\n- Understanding the consulting process.\n- Good business judgement.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Yes",
       "scorecard": [
         {
           "criteria": "consulting mindset",
           "score": 3,
-          "note": "yes | Q-1 Rationale and defensibility: 3, Q-2...",
-          "source": "workbook"
+          "note": "3",
+          "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": 1,
-          "note": "yes | Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3...",
-          "source": "workbook"
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
         },
         {
           "criteria": "client presence",
           "score": 3,
-          "note": "Q-1 Structures the answer in a logical: 2, Q-2 Ability...",
-          "source": "workbook"
+          "note": "3",
+          "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": 1,
-          "note": "Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3 Actively...",
-          "source": "workbook"
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "note": "",
+          "source": "latest_export"
         },
         {
           "criteria": "communication",
           "score": 3,
-          "note": "yes | Q-1 Structures the answer in a logical: 2, Q-2...",
-          "source": "workbook"
+          "note": "3",
+          "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
         }
       ],
-      "next_step": "Proceed — The primary area to work on is presentation delivery using SCR and pyramid approach.",
+      "next_step": "Creativity and depth of solution. Structuring of approach.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-22 07:00:00",
-      "notes": "Feedback for Grzegorz Grzegorz shows genuine consulting potential and we are happy to move him forward to the next stage, though at Associate rather than Consultant level. His deck quality is strong, but his presentation delivery needs meaningful improvement before he is ready to perform confidently in front of a client. Strengths The presentation was well-structured with a clear focus on the so-what, next steps, risks, and a concrete plan forward. Visuals were neat and closely aligned with the Adaptovate style. The intro and context-setting landed well, giving the audience a solid foundation. Most notably, Grzegorz drew a strong connection between the problems identified and the success metrics proposed in the way forward — this kind of end-to-end thinking is a real positive. Areas for Development The primary area to work on is presentation delivery, particularly in English. Grzegorz spent too long on each slide, struggled to maintain structured talk tracks, drifted into unnecessary detail, and at times stuttered in a way that created anxiety for the audience. This needs focused practice, as confident and fluid delivery is essential in a client-facing role. On the slide craft side, titles should be pushed further toward the so-what style — the key message should be immediately clear from the title alone. Adding more quotes to the as-is analysis would strengthen the case for change and make the findings more credible and compelling. Grzegorz should also make greater use of structuring frameworks such as SCR and the Pyramid Principle, both for slide layout and for scripting his verbal delivery."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "- Overall: Good candidate with useful previous experience as a consultant.\n- Consulting Skills: Knowing the consulting business.\n- Knowing frameworks and how to apply them.\n- Understanding the consulting process.\n- Good business judgement.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     "Piotr Broda": {
       "id": "piotr-broda-consultant-warsaw-warsaw",
       "candidate_name": "Piotr Broda",
+      "role": "Consultant | Warsaw",
       "role_assessed_for": "Consultant | Warsaw",
+      "office_location": "Warsaw",
+      "office": "Warsaw",
       "location": "Warsaw",
-      "current_stage": "2nd Interview - Case Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-17 13:00:00",
-      "latest_feedback_reference": "Consultant Case Interview / Piotr Mocny",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Very good at listening, capturing the information, rephrasing, asking questions and identifying objective and core...",
+      "current_stage": "3rd Round Interview",
+      "company": "Cyrantos",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Structured thinking. Usage of frameworks",
-      "stakeholder_summary": "Very good at listening, capturing the information, rephrasing, asking questions and identifying objective and core...",
-      "suggested_level": "Associate",
-      "client_trust": "Yes",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
@@ -2576,98 +3874,106 @@ window.TALENT_DATA = {
           "source": "workbook"
         }
       ],
-      "next_step": "Proceed — Structured thinking. Usage of frameworks",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-17 13:00:00",
-      "notes": "Very good at listening, capturing the information, rephrasing, asking questions and identifying objective and core problem. Results of the case satisfactory, had some good ideas focused on the core, though structure of the speech weak (no upfront structure, linear thinking). Combines soft and hard aspects of the solution. Good questions about ADAPTOVATE. It is clear to him that BD is part of the job (asked about it himself). Problem solving good, great judgment (especially for a relatively junior position), weaker structure. Good communicator, convincing, clear, very good listening. Good teaming and motivation. Relevant experience."
-    },
-    "Bartosz Szpak": {
-      "id": "bartosz-szpak-consultant-warsaw-warsaw",
-      "candidate_name": "Bartosz Szpak",
-      "role_assessed_for": "Consultant | Warsaw",
-      "location": "Warsaw",
-      "current_stage": "1st Interview - Take Home Case",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-19 07:00:00",
-      "latest_feedback_reference": "Take Home Case PPT Interview / Michal Rosolowski",
-      "overall_rating": 2.0,
-      "recommendation": "No",
-      "red_flag_status": "No",
-      "strengths": "Feedback for BartoszFeedback for Bartosz Overall, Bartosz is not yet ready for independent client-facing delivery.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Do not proceed",
-      "stakeholder_summary": "Feedback for BartoszFeedback for Bartosz Overall, Bartosz is not yet ready for independent client-facing delivery.",
-      "suggested_level": "N/A (Not recommended for hire)",
-      "client_trust": "Not captured in ATS.",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": 3,
-          "note": "no | Q-1 Rationale and defensibility: 3, Q-2...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": 1,
-          "note": "yes | Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Structures the answer in a logical: 2, Q-2 Ability...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": 1,
-          "note": "Q-1 Self-motivated: 0, Q-2 Team player: 0, Q-3 Actively...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 3,
-          "note": "yes | Q-1 Structures the answer in a logical: 2, Q-2...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Do not proceed",
-      "status": "Active",
-      "risk_level": "High",
-      "source": "Workbook import",
-      "last_updated": "2026-06-19 07:00:00",
-      "notes": "Feedback for BartoszFeedback for Bartosz Overall, Bartosz is not yet ready for independent client-facing delivery. While he demonstrates solid analytical ability and preparation, the gap between his comfort with research and his ability to present it confidently as a consultant carries too much risk in a real client context. Strengths Bartosz put together a well-structured presentation with a strong title slide and effective use of quotes to build the case for change. The exec summary was delivered naturally and with confidence. He also showed good consulting instinct by anticipating next steps, and throughout the session he was approachable, receptive to feedback, and easy to work with. Areas for Development The most critical issue is client-facing readiness. Bartosz was visibly more comfortable explaining the thinking behind his slides than actually presenting them in a consultant-led way. This is a significant risk — client situations regularly demand ad-hoc, confident delivery, and professional consultants need to own their material regardless of circumstances. When asked about whether he prefereed collaborative mode with client or solo work - he liked the latter more, which is against ADAPTOVATE way of working by default. Beyond delivery, there is a mindset shift needed. Bartosz tends to focus on demonstrating the quality of his analysis and process rather than driving toward outcomes and client impact. This can come across as proving knowledge rather than serving the client, and a more modest, outcome-oriented approach is needed. On the technical side, the Adaptovate template was barely applied, which needs to be corrected. Slide titles were weaker than the subtitles and should carry the key message instead. There was also a noticeable disconnect between the challenges identified and the solutions proposed, which weakened the overall narrative."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     "Kanishka Banerji": {
       "id": "kanishka-banerji-managing-director-partner-mdp-texas-texas",
       "candidate_name": "Kanishka Banerji",
+      "role": "Managing Director Partner (MDP) | Texas",
       "role_assessed_for": "Managing Director Partner (MDP) | Texas",
+      "office_location": "Texas",
+      "office": "Texas",
       "location": "Texas",
-      "current_stage": "1st Interview",
-      "company": "ADAPTOVATE",
+      "current_stage": "2nd Interview - Case Interview",
+      "company": "ERNST & YOUNG LLP (EY)",
       "interview_date": "2026-06-24 20:30:00",
-      "latest_feedback_reference": "Partner & Office Lead HR Interview / Simmy Li",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Deep Oil & Gas sector experience.",
+      "latest_feedback_reference": "1st Interview - Non Take Home Case/Consulting Track / Jeffrey von Drehnen",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "- Kanishka Banerji — 1st Interview Notes Jeff von Drehnen | Jun 25, 2026 Background & Experience Wants to leverage his experience to replicate and build a consulting bus...\n- Upstream and downstream exposure.\n- Core work spans digital transformation, org design, and exec roadmapping — strong emphasis on transformation.\n- Main clients: ExxonMobil, BP, Chevron.\n- Middle East experience via Chevron — set up digital transformation operations there.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- if has the start up sales skills (if he can sales with EY name) - Fit - more as a delivery leader than a seller - He said he has a strong relationship with oil & gas people in Houston, check",
-      "stakeholder_summary": "Deep Oil & Gas sector experience.",
+      "what_to_test_next": "To Test Next 30/60/90 day plan Paul to run a case study with him to assess consulting approach",
+      "stakeholder_summary": "- Kanishka Banerji — 1st Interview Notes Jeff von Drehnen | Jun 25, 2026 Background & Experience Wants to leverage his experience to replicate and build a consulting bus...\n- Upstream and downstream exposure.\n- Core work spans digital transformation, org design, and exec roadmapping — strong emphasis on transformation.\n- Main clients: ExxonMobil, BP, Chevron.\n- Middle East experience via Chevron — set up digital transformation operations there.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": 3,
+          "note": "Q-1 Client Portfolio Expansion: 4, Q-2 Revenue...",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": 3,
+          "note": "Q-1 Concise and effective communication: 3, Q-2...",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": 1,
+          "note": "Q-1 Resilience and Independence: 0, Q-2 Team player:...",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": 2,
+          "note": "Q-1 Team Development: 0, Q-2 Client Project...",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "communication",
+          "score": 3,
+          "note": "Q-1 Concise and effective communication: 3, Q-2...",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": 3,
+          "note": "Q-1 Client Portfolio Expansion: 4, Q-2 Revenue...",
+          "source": "latest_export"
+        }
+      ],
+      "next_step": "To Test Next 30/60/90 day plan Paul to run a case study with him to assess consulting approach",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "- Kanishka Banerji — 1st Interview Notes Jeff von Drehnen | Jun 25, 2026 Background & Experience Wants to leverage his experience to replicate and build a consulting bus...\n- Upstream and downstream exposure.\n- Core work spans digital transformation, org design, and exec roadmapping — strong emphasis on transformation.\n- Main clients: ExxonMobil, BP, Chevron.\n- Middle East experience via Chevron — set up digital transformation operations there.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Russ Warren": {
+      "id": "russ-warren-managing-director-partner-mdp-texas-texas",
+      "candidate_name": "Russ Warren",
+      "role": "Managing Director Partner (MDP) | Texas",
+      "role_assessed_for": "Managing Director Partner (MDP) | Texas",
+      "office_location": "Texas",
+      "office": "Texas",
+      "location": "Texas",
+      "current_stage": "3rd Round Interview",
+      "company": "Accenture (Energy Strategy MD)",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
       "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
@@ -2675,345 +3981,730 @@ window.TALENT_DATA = {
           "criteria": "consulting mindset",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "problem solving",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "client presence",
-          "score": 2,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "adaptability",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "leadership",
-          "score": 2,
-          "note": "Q-1 Professional Network: 3",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "communication",
-          "score": 2,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "commercial awareness",
-          "score": 2,
-          "note": "Q-1 Client Portfolio Expansion: 3 | Q-1 Professional...",
-          "source": "workbook"
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
         }
       ],
-      "next_step": "Proceed — '- if has the start up sales skills (if he can sales with EY name) - Fit - more as a delivery leader than a seller - He said he has a strong relationship with oil & gas people in Houston, check",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-24 20:30:00",
-      "notes": "Deep Oil & Gas sector experience. Key clients include Chevron and BP. Experience working across both Canada and US markets. Good relationships, including BP CIO. Need to assess sales capability outside the EY brand. Comes across more as a delivery leader than a natural seller. \"Good student\" profile; less evidence of entrepreneurial sales behaviour. Check the fit Client Restrictions Chevron: 2-year cooling-off period. BP: approximately 1-year cooling-off period. Other client restrictions vary by account involvement. If not directly involved in an account, restrictions may be reduced. Potential to leverage relationships where permitted. Some accounts may have restrictions as short as 6 months."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
-    "Mark Hill": {
-      "id": "mark-hill-principal-consulting-london-london",
-      "candidate_name": "Mark Hill",
+    "Vinay Kumar": {
+      "id": "vinay-kumar-principal-consulting-london-uk",
+      "candidate_name": "Vinay Kumar",
+      "role": "Principal | Consulting | London",
       "role_assessed_for": "Principal | Consulting | London",
-      "location": "London",
-      "current_stage": "1st Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-19 13:00:00",
-      "latest_feedback_reference": "Final Consultant Case Interview / Alex Rebkowski",
-      "overall_rating": 3.0,
-      "recommendation": "Proceed to case and UK review",
-      "red_flag_status": "No",
-      "strengths": "Sales focus and client-facing confidence",
-      "concerns": "Consulting toolkit needs case testing",
-      "what_to_test_next": "Case toolkit and UK team fit",
-      "stakeholder_summary": "Commercial Principal candidate; needs case validation",
-      "suggested_level": "Project Lead",
-      "client_trust": "Medium-high; commercial strength, case unproven",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": 2,
-          "note": "Q-1 Business judgement: 3 | Q-2 Independent Thinking...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": 3,
-          "note": "Q-3 Structured problem solving: 3 | Q-3 Structured...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 3,
-          "note": "Q-3 Client Leadership Under Pressure: 3",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-2 Active listening and understanding: 3 | Q-2...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": 3,
-          "note": "Q-3 Client Leadership Under Pressure: 3",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 2 | Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": 3,
-          "note": "Q-1 Business judgement: 3 | Q-1 Industry & Market...",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Run case; test UK team fit",
-      "status": "Active",
-      "risk_level": "Low",
-      "source": "Workbook import",
-      "last_updated": "2026-06-19 13:00:00",
-      "notes": "Mark is very commercially focused with experience with sales in Consulting. He seems to understand what we do although he has been mostly focused on CX and CRM implementations. Need to test his consulting toolkit through a case study as I treated this interview more as an intro to what we do. Need to also test fit with David Storie and the UK team."
-    },
-    "Prathieban Sathanathan": {
-      "id": "prathieban-sathanathan-principal-consulting-london-london",
-      "candidate_name": "Prathieban Sathanathan",
-      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
       "location": "London",
       "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-12 07:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Proceed to next interview",
-      "red_flag_status": "No",
-      "strengths": "Sales targets and smaller-firm motivation",
-      "concerns": "Principal level fit needs testing",
-      "what_to_test_next": "'- if he would make Principal",
-      "stakeholder_summary": "Principal-motivated candidate with sales experience",
-      "suggested_level": "Principal",
-      "client_trust": "Medium-high; HR feedback positive",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": 3,
-          "note": "Q-1 Business judgement: 3 | Q-2 Independent Thinking...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": 3,
-          "note": "Q-3 Structured problem solving: 3",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3, Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": 3,
-          "note": "Q-2 Active listening: 3 | Q-1 Motivation for the Role:...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 3,
-          "note": "Q-1 Concise and effective communication: 3 | Q-2 Active...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": 3,
-          "note": "Q-1 Business judgement: 3 | Q-1 Industry & Market...",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Test Principal readiness",
-      "status": "Active",
-      "risk_level": "Low",
-      "source": "Workbook import",
-      "last_updated": "2026-06-12 07:00:00",
-      "notes": "He would only be interested in Principal level as his next career move. He's looking for a smaller firm to make an impact. Lots of sales exp., working with targets. Presented salaries for PL and Principal"
-    },
-    "Ash Sheikh": {
-      "id": "ash-sheikh-senior-consultant-london-london",
-      "candidate_name": "Ash Sheikh",
-      "role_assessed_for": "Senior Consultant | London",
-      "location": "London",
-      "current_stage": "1st Interview - Non Take Home Case/Consulting Track",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-11 08:00:00",
-      "latest_feedback_reference": "Take Home Case PPT Interview / Piotr Mocny",
-      "overall_rating": 2.0,
-      "recommendation": "No",
-      "red_flag_status": "Major",
-      "strengths": "Gives the feeling of a senior Agile Coach - not a rounded consultant.",
-      "concerns": "Major",
-      "what_to_test_next": "Commerciality. Number-based business thinking (consulting skills vs. coaching)",
-      "stakeholder_summary": "Gives the feeling of a senior Agile Coach - not a rounded consultant.",
-      "suggested_level": "Project Lead",
-      "client_trust": "No",
-      "scorecard": [
-        {
-          "criteria": "consulting mindset",
-          "score": 3,
-          "note": "no | Q-1 Rationale and defensibility: 2, Q-2...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "problem solving",
-          "score": 2,
-          "note": "yes | Q-1 Self-motivated: 2, Q-2 Team player: 3, Q-3...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "client presence",
-          "score": 3,
-          "note": "Q-1 Structures the answer in a logical: 2, Q-2 Ability...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "adaptability",
-          "score": 2,
-          "note": "Q-1 Self-motivated: 2, Q-2 Team player: 3, Q-3 Actively...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "leadership",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        },
-        {
-          "criteria": "communication",
-          "score": 3,
-          "note": "no | Q-1 Structures the answer in a logical: 2, Q-2...",
-          "source": "workbook"
-        },
-        {
-          "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "workbook"
-        }
-      ],
-      "next_step": "Do not proceed — Commerciality. Number-based business thinking (consulting skills vs. coaching)",
-      "status": "Active",
-      "risk_level": "High",
-      "source": "Workbook import",
-      "last_updated": "2026-06-11 08:00:00",
-      "notes": "Gives the feeling of a senior Agile Coach - not a rounded consultant. Slides - \"agile-coach\" type (directional/motivational - less content). Senior, but following the self-imposed thinking about one objective/step at a time. Has a tendency to \"preach\" his approach. While presenting his approach has not stopped/invited me for questions/comments at another moment than before or after the presentation. Held a long monologue. Wants to develop people. Plans to change because of values (objecting his current start-up delaying payments to small vendors). A contrarian nature - might come through controversial. Difficult for me to imagine him being a successful BD manager or a number driven consultants ."
-    },
-    "Johan Dewald Viljoen": {
-      "id": "johan-dewald-viljoen-senior-consultant-london-london",
-      "candidate_name": "Johan Dewald Viljoen",
-      "role_assessed_for": "Senior Consultant | London",
-      "location": "London",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-12 10:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
+      "company": "NESO (National Energy System Operator)",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
       "overall_rating": null,
-      "recommendation": "Pending feedback",
+      "recommendation": "Not captured in ATS.",
       "red_flag_status": "Not captured in ATS.",
-      "strengths": "Feedback pending",
-      "concerns": "Feedback missing from interview panel",
-      "what_to_test_next": "Collect interviewer feedback first",
-      "stakeholder_summary": "Pending feedback; interview incomplete",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
       "suggested_level": "Not captured in ATS.",
-      "client_trust": "Low data; feedback missing",
+      "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "problem solving",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "client presence",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "adaptability",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "communication",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         },
         {
           "criteria": "commercial awareness",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "workbook"
+          "source": "July 8 pipeline update"
         }
       ],
-      "next_step": "Close pending interviewer feedback",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Unknown",
-      "source": "Workbook import",
-      "last_updated": "2026-06-12 10:00:00",
-      "notes": "Not captured in ATS."
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Hugo Godson Treacy": {
+      "id": "hugo-godson-treacy-senior-consultant-london-uk",
+      "candidate_name": "Hugo Godson Treacy",
+      "role": "Senior Consultant | London",
+      "role_assessed_for": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "EY Ireland",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Vishal Gupta": {
+      "id": "vishal-gupta-principal-consulting-london-uk",
+      "candidate_name": "Vishal Gupta",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Hitachi",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Robin Blackburn": {
+      "id": "robin-blackburn-principal-consulting-london-uk",
+      "candidate_name": "Robin Blackburn",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Welcomm Communications, OSF Digital, Frost & Sullivan, Imperial Health Sciences, Ericsson, System21",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Jeremy Stevens": {
+      "id": "jeremy-stevens-principal-consulting-london-uk",
+      "candidate_name": "Jeremy Stevens",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Technoworks",
+      "interview_date": "2026-06-26 09:00:00",
+      "latest_feedback_reference": "HR Interview / Agata Przespolewska",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "- Very comertially driven.\n- Works as a contractor, wants a permanent role to leverage his network (says he has a solid black book) and remain reliable for the clients.\n- worth a talk.\n- presented PL ans Principal salaries",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "'-sales",
+      "stakeholder_summary": "- Very comertially driven.\n- Works as a contractor, wants a permanent role to leverage his network (says he has a solid black book) and remain reliable for the clients.\n- worth a talk.\n- presented PL ans Principal salaries",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": 3,
+          "note": "3 | yes | yes",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "communication",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        }
+      ],
+      "next_step": "'-sales",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "- Very comertially driven.\n- Works as a contractor, wants a permanent role to leverage his network (says he has a solid black book) and remain reliable for the clients.\n- worth a talk.\n- presented PL ans Principal salaries",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Lucas Adamik": {
+      "id": "lucas-adamik-principal-consulting-london-uk",
+      "candidate_name": "Lucas Adamik",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Symetri",
+      "interview_date": "2026-06-26 10:00:00",
+      "latest_feedback_reference": "HR Interview / Agata Przespolewska",
+      "overall_rating": 2,
+      "recommendation": "yes",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "- experience mostly in consulting, manufacturing, gov.\n- Focused on sales and growth.\n- Calm domenour.\n- Polish guy.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "'-sales -energy",
+      "stakeholder_summary": "- experience mostly in consulting, manufacturing, gov.\n- Focused on sales and growth.\n- Calm domenour.\n- Polish guy.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "communication",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        }
+      ],
+      "next_step": "'-sales -energy",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "- experience mostly in consulting, manufacturing, gov.\n- Focused on sales and growth.\n- Calm domenour.\n- Polish guy.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Claire Robinson": {
+      "id": "claire-robinson-principal-consulting-london-uk",
+      "candidate_name": "Claire Robinson",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Ivelium Marketing",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Rob Wells": {
+      "id": "rob-wells-principal-consulting-london-uk",
+      "candidate_name": "Rob Wells",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Nicklaus Brown & Co",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Kajal Soneji": {
+      "id": "kajal-soneji-senior-consultant-london-uk",
+      "candidate_name": "Kajal Soneji",
+      "role": "Senior Consultant | London",
+      "role_assessed_for": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "HR Interview",
+      "company": "Grant Thornton",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     "Justin Elias": {
-      "id": "justin-elias-senior-consultant-london-london",
+      "id": "justin-elias-senior-consultant-london-uk",
       "candidate_name": "Justin Elias",
+      "role": "Senior Consultant | London",
       "role_assessed_for": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
       "location": "London",
-      "current_stage": "HR Interview",
-      "company": "ADAPTOVATE",
-      "interview_date": "2026-06-11 08:00:00",
-      "latest_feedback_reference": "Consultant HR Interview / Agata Przespolewska",
-      "overall_rating": 3.0,
-      "recommendation": "Yes",
-      "red_flag_status": "No",
-      "strengths": "Candidate with lot's of experience in operation, sales, consulting.",
+      "current_stage": "1st Interview - Non Take Home Case/Consulting Track",
+      "company": "Collinson Grant",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
       "concerns": "Not captured in ATS.",
-      "what_to_test_next": "'- sales",
-      "stakeholder_summary": "Candidate with lot's of experience in operation, sales, consulting.",
-      "suggested_level": "Project Lead",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
@@ -3059,86 +4750,647 @@ window.TALENT_DATA = {
           "source": "workbook"
         }
       ],
-      "next_step": "Proceed — '- sales",
+      "next_step": "Not captured in ATS.",
       "status": "Active",
-      "risk_level": "Medium",
-      "source": "Workbook import",
-      "last_updated": "2026-06-11 08:00:00",
-      "notes": "Candidate with lot's of experience in operation, sales, consulting. Last year he went on self employment and works with Collinson as an Associate- contractor. Previously was a Director. He'd be up for both permanent role as well as contracting (maybe worth considering as a trial?) Not a problem to be in London as much as needed. Has exp. in different markets- France, Saudi, Japan Available quickly. Presented PL ans Pri salaries- ok with both, previously had 120k, daily rate up to1k"
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Prathleban Sathananthan": {
+      "id": "prathleban-sathananthan-principal-consulting-london-uk",
+      "candidate_name": "Prathleban Sathananthan",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "1st Interview - Non Take Home Case/Consulting Track",
+      "company": "EY",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Priyasmita Ghose": {
+      "id": "priyasmita-ghose-principal-consulting-london-uk",
+      "candidate_name": "Priyasmita Ghose",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "1st Interview - Non Take Home Case/Consulting Track",
+      "company": "Fractal Analytics",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Giles Boorman": {
+      "id": "giles-boorman-principal-consulting-london-uk",
+      "candidate_name": "Giles Boorman",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "1st Interview - Non Take Home Case/Consulting Track",
+      "company": "North Highland UK",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Neha Jaiswal": {
+      "id": "neha-jaiswal-senior-consultant-london-uk",
+      "candidate_name": "Neha Jaiswal",
+      "role": "Senior Consultant | London",
+      "role_assessed_for": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "2nd Interview - Case Interview",
+      "company": "Greybook Ltd",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Joshua Huggins": {
+      "id": "joshua-huggins-senior-consultant-london-uk",
+      "candidate_name": "Joshua Huggins",
+      "role": "Senior Consultant | London",
+      "role_assessed_for": "Senior Consultant | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "2nd Interview - Case Interview",
+      "company": "Accenture",
+      "interview_date": "2026-06-30 15:00:00",
+      "latest_feedback_reference": "2nd Interview - Case Interview / David Storrie",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Agrima Bhutani": {
+      "id": "agrima-bhutani-project-lead-consulting-london-uk",
+      "candidate_name": "Agrima Bhutani",
+      "role": "Project Lead | Consulting | London",
+      "role_assessed_for": "Project Lead | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "2nd Interview - Case Interview",
+      "company": "Efficio Consulting",
+      "interview_date": "",
+      "latest_feedback_reference": "Not captured in ATS.",
+      "overall_rating": null,
+      "recommendation": "Not captured in ATS.",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "Not captured in ATS.",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Not captured in ATS.",
+      "stakeholder_summary": "Not captured in ATS.",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Not captured in ATS.",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "problem solving",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "client presence",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "adaptability",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "communication",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": null,
+          "note": "Not captured in ATS.",
+          "source": "July 8 pipeline update"
+        }
+      ],
+      "next_step": "Not captured in ATS.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "Not captured in ATS.",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
+    },
+    "Mark Hill": {
+      "id": "mark-hill-principal-consulting-london-uk",
+      "candidate_name": "Mark Hill",
+      "role": "Principal | Consulting | London",
+      "role_assessed_for": "Principal | Consulting | London",
+      "office_location": "London",
+      "office": "UK",
+      "location": "London",
+      "current_stage": "3rd Round Interview",
+      "company": "Lander Sports Investment Ltd",
+      "interview_date": "2026-07-06 08:00:00",
+      "latest_feedback_reference": "3rd Round Interview / Paul McNamara",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "Not captured in ATS.",
+      "strengths": "- Mark presented well , provided a breadth of experience and also has exposure to what it means to build a small business in consulting , seems very pragmatic and commer...",
+      "concerns": "Not captured in ATS.",
+      "what_to_test_next": "Test again his commerciality and fit for ADAPTOVATE needs.",
+      "stakeholder_summary": "- Mark presented well , provided a breadth of experience and also has exposure to what it means to build a small business in consulting , seems very pragmatic and commer...",
+      "suggested_level": "Not captured in ATS.",
+      "client_trust": "Yes",
+      "scorecard": [
+        {
+          "criteria": "consulting mindset",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "problem solving",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "client presence",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "adaptability",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "leadership",
+          "score": null,
+          "note": "",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "communication",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        },
+        {
+          "criteria": "commercial awareness",
+          "score": 3,
+          "note": "3",
+          "source": "latest_export"
+        }
+      ],
+      "next_step": "Test again his commerciality and fit for ADAPTOVATE needs.",
+      "status": "Active",
+      "risk_level": "Not captured in ATS.",
+      "source": "July 8 live pipeline update",
+      "last_updated": "2026-07-08",
+      "notes": "- Mark presented well , provided a breadth of experience and also has exposure to what it means to build a small business in consulting , seems very pragmatic and commer...",
+      "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     }
   },
   "funnel": {
     "stages": [
+      "Lead",
+      "Applicant",
+      "Interview",
       "HR Interview",
-      "1st Interview",
-      "2nd Interview",
-      "3rd Interview",
-      "Unknown"
+      "1st Interview - Take Home Case",
+      "1st Interview - Non Take Home Case/Consulting Track",
+      "2nd Interview - Case Interview",
+      "2nd Interview - Take Home Case",
+      "Meet and Greet (Optional)",
+      "3rd Round Interview",
+      "Reference Check",
+      "Background Check",
+      "Offer",
+      "Hired"
     ],
     "global": {
-      "HR Interview": 10,
-      "1st Interview": 6,
-      "2nd Interview": 1,
-      "3rd Interview": 0,
-      "Unknown": 0
+      "Lead": 265,
+      "Applicant": 22,
+      "Interview": 29,
+      "HR Interview": 14,
+      "1st Interview - Take Home Case": 3,
+      "1st Interview - Non Take Home Case/Consulting Track": 4,
+      "2nd Interview - Case Interview": 4,
+      "2nd Interview - Take Home Case": 0,
+      "Meet and Greet (Optional)": 0,
+      "3rd Round Interview": 4,
+      "Reference Check": 0,
+      "Background Check": 0,
+      "Offer": 0,
+      "Hired": 2
     },
     "offices": {
       "Toronto": {
-        "HR Interview": 7,
-        "1st Interview": 0,
-        "2nd Interview": 0,
-        "3rd Interview": 0,
-        "Unknown": 0
+        "Lead": 3,
+        "Applicant": 5,
+        "Interview": 8,
+        "HR Interview": 5,
+        "1st Interview - Take Home Case": 3,
+        "1st Interview - Non Take Home Case/Consulting Track": 0,
+        "2nd Interview - Case Interview": 0,
+        "2nd Interview - Take Home Case": 0,
+        "Meet and Greet (Optional)": 0,
+        "3rd Round Interview": 0,
+        "Reference Check": 0,
+        "Background Check": 0,
+        "Offer": 0,
+        "Hired": 0
       },
       "Warsaw": {
+        "Lead": 237,
+        "Applicant": 7,
+        "Interview": 2,
         "HR Interview": 0,
-        "1st Interview": 3,
-        "2nd Interview": 1,
-        "3rd Interview": 0,
-        "Unknown": 0
+        "1st Interview - Take Home Case": 0,
+        "1st Interview - Non Take Home Case/Consulting Track": 0,
+        "2nd Interview - Case Interview": 0,
+        "2nd Interview - Take Home Case": 0,
+        "Meet and Greet (Optional)": 0,
+        "3rd Round Interview": 2,
+        "Reference Check": 0,
+        "Background Check": 0,
+        "Offer": 0,
+        "Hired": 2
       },
       "Texas": {
+        "Lead": 0,
+        "Applicant": 2,
+        "Interview": 2,
         "HR Interview": 0,
-        "1st Interview": 1,
-        "2nd Interview": 0,
-        "3rd Interview": 0,
-        "Unknown": 0
+        "1st Interview - Take Home Case": 0,
+        "1st Interview - Non Take Home Case/Consulting Track": 0,
+        "2nd Interview - Case Interview": 1,
+        "2nd Interview - Take Home Case": 0,
+        "Meet and Greet (Optional)": 0,
+        "3rd Round Interview": 1,
+        "Reference Check": 0,
+        "Background Check": 0,
+        "Offer": 0,
+        "Hired": 0
       },
-      "London": {
-        "HR Interview": 3,
-        "1st Interview": 2,
-        "2nd Interview": 0,
-        "3rd Interview": 0,
-        "Unknown": 0
+      "UK": {
+        "Lead": 25,
+        "Applicant": 8,
+        "Interview": 17,
+        "HR Interview": 9,
+        "1st Interview - Take Home Case": 0,
+        "1st Interview - Non Take Home Case/Consulting Track": 4,
+        "2nd Interview - Case Interview": 3,
+        "2nd Interview - Take Home Case": 0,
+        "Meet and Greet (Optional)": 0,
+        "3rd Round Interview": 1,
+        "Reference Check": 0,
+        "Background Check": 0,
+        "Offer": 0,
+        "Hired": 0
       }
     }
   },
   "rawCounts": {
-    "stage": {
-      "HR Interview": 10,
-      "1st Interview": 6,
-      "2nd Interview": 1
+    "activeByOffice": {
+      "Toronto": 8,
+      "Warsaw": 2,
+      "Texas": 2,
+      "UK": 17
     },
-    "office": {
-      "Toronto": 7,
-      "Warsaw": 4,
-      "Texas": 1,
-      "London": 5
+    "activeByStage": {
+      "HR Interview": 14,
+      "1st Interview - Take Home Case": 3,
+      "3rd Round Interview": 4,
+      "2nd Interview - Case Interview": 4,
+      "1st Interview - Non Take Home Case/Consulting Track": 4
     },
-    "status": {
-      "Active": 17
-    },
-    "risk": {
-      "Unknown": 3,
-      "Medium": 10,
-      "High": 3,
-      "Low": 1
-    }
+    "feedbackCompleted": 5,
+    "feedbackMissing": 24
   },
   "selectionDefaults": {
     "office": "Global",
-    "roleId": "ai-consultant-toronto",
-    "candidateId": "aditi-maheshwari-ai-consultant-toronto-toronto"
+    "roleId": "ai-transformation-consultant-toronto",
+    "candidateId": "sanjana-santhosh-pai-ai-transformation-consultant-toronto-toronto"
   },
   "scorecardTemplates": {
     "consulting mindset": "Not captured in ATS.",
@@ -3151,24 +5403,23 @@ window.TALENT_DATA = {
   },
   "pipelineHealth": {
     "stages": {
-      "HR Interview": 10,
-      "1st Interview": 6,
-      "2nd Interview": 1
+      "HR Interview": 14,
+      "1st Interview - Take Home Case": 3,
+      "3rd Round Interview": 4,
+      "2nd Interview - Case Interview": 4,
+      "1st Interview - Non Take Home Case/Consulting Track": 4
     },
     "offices": {
-      "Toronto": 7,
-      "Warsaw": 4,
-      "Texas": 1,
-      "London": 5
+      "Toronto": 8,
+      "Warsaw": 2,
+      "Texas": 2,
+      "UK": 17
     },
     "risks": {
-      "Unknown": 3,
-      "Medium": 10,
-      "High": 3,
-      "Low": 1
+      "Not captured in ATS.": 29
     },
     "statuses": {
-      "Active": 17
+      "Active": 29
     }
   }
 };

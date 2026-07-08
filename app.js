@@ -1,6 +1,6 @@
 const talentData = window.TALENT_DATA || {};
 
-const STORAGE_KEY = "adaptovate-talent-dashboard-internal-v4";
+const STORAGE_KEY = "adaptovate-talent-dashboard-internal-v5";
 const DATA_KEY = `${STORAGE_KEY}:data`;
 const CHAT_KEY = `${STORAGE_KEY}:chat`;
 
@@ -156,16 +156,27 @@ const els = {
   chatInput: document.getElementById("chat-input"),
 };
 
-const stageOrder = ["HR Interview", "1st Interview", "2nd Interview", "3rd Interview", "Unknown"];
+const stageOrder = [
+  "Lead",
+  "Applicant",
+  "Interview",
+  "HR Interview",
+  "1st Interview - Take Home Case",
+  "1st Interview - Non Take Home Case/Consulting Track",
+  "2nd Interview - Case Interview",
+  "2nd Interview - Take Home Case",
+  "Meet and Greet (Optional)",
+  "3rd Round Interview",
+  "Reference Check",
+  "Background Check",
+  "Offer",
+  "Hired",
+];
 const metricFormatter = new Intl.NumberFormat("en-US", { maximumFractionDigits: 1 });
 const officeAliases = {
   UK: "London",
 };
-const requiredLondonCandidates = [
-  "Johan Dewald Viljoen",
-  "Mark Hill",
-  "Prathieban Sathanathan",
-];
+const requiredLondonCandidates = [];
 
 const editableDefaults = {
   totalCandidates: summary.kpis?.totalCandidates ?? candidates.length,
@@ -309,7 +320,7 @@ function syncSummaryViewsFromCandidates() {
   });
 
   offices.forEach((office) => {
-    const matched = candidates.filter((candidate) => candidate.office_location === office.office);
+    const matched = candidates.filter((candidate) => officeMatches(candidate.office_location, office.office));
     office.count = matched.length;
     office.active = matched.length;
   });
@@ -335,6 +346,7 @@ function syncSummaryViewsFromCandidates() {
 function ensureRequiredLondonData() {
   const sourceCandidates = Array.isArray(talentData.candidates) ? talentData.candidates : [];
   const sourceDetails = Array.isArray(talentData.candidateDetails) ? talentData.candidateDetails : [];
+  let changed = false;
 
   requiredLondonCandidates.forEach((candidateName) => {
     const hasCandidate = candidates.some((candidate) => clean(candidate.candidate_name) === candidateName);
@@ -343,6 +355,7 @@ function ensureRequiredLondonData() {
       if (sourceCandidate) {
         dataState.candidates = [...candidates, deepClone(sourceCandidate)];
         candidates = dataState.candidates;
+        changed = true;
       }
     }
 
@@ -352,10 +365,12 @@ function ensureRequiredLondonData() {
       if (sourceDetail) {
         dataState.candidateDetails = [...candidateDetails, deepClone(sourceDetail)];
         candidateDetails = dataState.candidateDetails;
+        changed = true;
       }
     }
   });
 
+  if (!changed) return;
   refreshCandidateLookup();
   syncSummaryViewsFromCandidates();
 }
@@ -734,10 +749,14 @@ function renderPipeline() {
 }
 
 function renderStageHealth() {
-  const max = Math.max(...stageOrder.map((stage) => stageHealth[stage] || 0), 1);
+  const officeCounts = state.office === "Global"
+    ? null
+    : (funnel.offices?.[state.office] || funnel.offices?.[canonicalOffice(state.office)] || null);
+  const counts = officeCounts || funnel.global || stageHealth || {};
+  const max = Math.max(...stageOrder.map((stage) => counts[stage] || 0), 1);
   els.stageHealthBody.innerHTML = stageOrder
     .map((stage, index) => {
-      const count = stageHealth[stage] || 0;
+      const count = counts[stage] || 0;
       const width = (count / max) * 100;
       return `
         <div class="stage-row">
@@ -803,7 +822,7 @@ function renderSnapshot(role) {
   }
 
   const items = roleCandidates(record);
-  const finalists = items.filter((item) => item.stage === "2nd Interview" || item.stage === "3rd Interview").length;
+  const finalists = items.filter((item) => clean(item.stage).includes("2nd Interview") || clean(item.stage).includes("3rd Round")).length;
   const offers = items.filter((item) => clean(item.next_step).toLowerCase().includes("offer")).length;
   const decisionNeeded = record.status === "Decision Needed" ? "Yes" : "No";
   const values = [
