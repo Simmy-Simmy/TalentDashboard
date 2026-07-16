@@ -9,7 +9,7 @@
 // real security — it just keeps the page from loading openly.
 // ============================================================
 (function () {
-  var SITE_PASSWORD = "changeme"; // <-- CHANGE THIS PASSWORD
+  var SITE_PASSWORD = "HireGoodPeople!"; // <-- CHANGE THIS PASSWORD
   var SESSION_KEY = "site-unlocked";
 
   var gate = document.getElementById("password-gate");
