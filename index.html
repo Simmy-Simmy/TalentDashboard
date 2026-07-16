@@ -6,8 +6,32 @@
   <meta name="color-scheme" content="light only" />
   <title>ADAPTOVATE Talent Dashboard</title>
   <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./password-gate.css" />
 </head>
 <body>
+
+  <!-- ============================================================
+       PASSWORD GATE — full-screen login shown until unlocked.
+       Logic lives in password-gate.js (edit SITE_PASSWORD there).
+       ============================================================ -->
+  <div id="password-gate" class="password-gate">
+    <div class="password-gate__card">
+      <div class="password-gate__eyebrow">ADAPTOVATE</div>
+      <h1 class="password-gate__title">Recruitment Dashboard</h1>
+      <p class="password-gate__sub">Enter the password to continue.</p>
+      <input type="password" id="password-input" class="password-gate__input" placeholder="Password" autocomplete="off" />
+      <button type="button" id="password-submit" class="password-gate__button">Unlock</button>
+      <p id="password-error" class="password-gate__error" hidden>Incorrect password. Please try again.</p>
+    </div>
+  </div>
+  <!-- ======================= END PASSWORD GATE ======================= -->
+
+  <!-- ============================================================
+       PROTECTED CONTENT — hidden (display:none) until the correct
+       password is entered. Paste/keep all existing site markup
+       inside this wrapper; nothing inside it needs to change.
+       ============================================================ -->
+  <div id="protected-content" style="display:none;">
   <main class="wrap">
     <section class="hero">
       <div class="eyebrow">ADAPTOVATE</div>
@@ -19,6 +43,7 @@
       <button class="btn primary" type="button" data-action="save">Save locally</button>
       <button class="btn secondary" type="button" data-action="reset">Reset view</button>
       <button class="btn ghost" type="button" data-action="copy-link">Copy file path</button>
+      <button class="btn ghost" type="button" id="logout-button">Logout</button>
       <div class="status" data-status>Local dashboard loaded from clean workbook data.</div>
     </div>
 
@@ -290,8 +315,11 @@
 
     <p class="footer">Internal working dashboard. Clean workbook import. ATS data only.</p>
   </main>
+  </div>
+  <!-- ===================== END PROTECTED CONTENT ===================== -->
 
   <script src="./data-loader.js?v=20260625-ukfix"></script>
   <script src="./app.js?v=20260625-ukfix"></script>
+  <script src="./password-gate.js"></script>
 </body>
 </html>
