@@ -1,4 +1,4 @@
-// Generated from July 8 live pipeline update
+// Generated from July 8 live pipeline update | Feedback refreshed 2026-07-17 from ATS exports (Toronto take-home case + HR interview feedback)
 window.TALENT_DATA = {
   "meta": {
     "heading": "ADAPTOVATE Talent Dashboard",
@@ -11,7 +11,7 @@ window.TALENT_DATA = {
     "leadershipSummary": [
       "29 active interview candidates across Toronto, Warsaw, UK, and Texas.",
       "Current stages come from the July 8 live pipeline update.",
-      "24 active candidates have no completed feedback captured in this update."
+      "19 active candidates have no completed feedback captured in this update."
     ],
     "leadershipInsights": [
       "UK has 17 active candidates.",
@@ -37,16 +37,16 @@ window.TALENT_DATA = {
       "totalCandidates": 29,
       "activeCandidates": 29,
       "openRoles": 7,
-      "averageScore": 2.8,
+      "averageScore": 2.7,
       "highRisk": 0,
-      "needReview": 24
+      "needReview": 19
     },
     "officeSummary": [
       {
         "office": "Toronto",
         "count": 8,
         "active": 8,
-        "average_score": null,
+        "average_score": 2.6,
         "top_stage": "HR Interview",
         "status": "Need Attention"
       },
@@ -54,7 +54,7 @@ window.TALENT_DATA = {
         "office": "Warsaw",
         "count": 2,
         "active": 2,
-        "average_score": 3.0,
+        "average_score": 3,
         "top_stage": "3rd Round Interview",
         "status": "Need Attention"
       },
@@ -70,7 +70,7 @@ window.TALENT_DATA = {
         "office": "Texas",
         "count": 2,
         "active": 2,
-        "average_score": 3.0,
+        "average_score": 3,
         "top_stage": "3rd Round Interview",
         "status": "Need Attention"
       }
@@ -83,7 +83,7 @@ window.TALENT_DATA = {
         "priority": "Mid",
         "pipeline_count": 8,
         "current_stage": "1st Interview - Take Home Case",
-        "average_score": null,
+        "average_score": 2.6,
         "status": "Need Attention",
         "status_reason": "Current stage and count from July 8 live pipeline update.",
         "candidate_names": [
@@ -105,7 +105,7 @@ window.TALENT_DATA = {
         "priority": "Mid",
         "pipeline_count": 1,
         "current_stage": "3rd Round Interview",
-        "average_score": 3.0,
+        "average_score": 3,
         "status": "On Track",
         "status_reason": "Current stage and count from July 8 live pipeline update.",
         "candidate_names": [
@@ -194,7 +194,7 @@ window.TALENT_DATA = {
         "priority": "High",
         "pipeline_count": 2,
         "current_stage": "3rd Round Interview",
-        "average_score": 3.0,
+        "average_score": 3,
         "status": "Need Attention",
         "status_reason": "Current stage and count from July 8 live pipeline update.",
         "candidate_names": [
@@ -223,8 +223,8 @@ window.TALENT_DATA = {
     "bottlenecks": [
       {
         "label": "Feedback missing",
-        "value": 24,
-        "note": "Completed feedback is not captured for 24 active candidates."
+        "value": 19,
+        "note": "Completed feedback is not captured for 19 active candidates."
       },
       {
         "label": "UK volume",
@@ -234,7 +234,7 @@ window.TALENT_DATA = {
       {
         "label": "Toronto cases",
         "value": 3,
-        "note": "Take-home case candidates need review."
+        "note": "Take-home case feedback now captured for all 3 candidates (2026-07-17 export) — Fahad: no, Dhwani: maybe, Annet: maybe. Ready for leadership decision."
       }
     ]
   },
@@ -242,10 +242,12 @@ window.TALENT_DATA = {
     "sourceFiles": [
       "codex_pipeline_payload_20260708.json",
       "active_candidate_pipeline_20260708.csv",
-      "adaptovate_dashboard_pipeline_update_20260708.xlsx"
+      "adaptovate_dashboard_pipeline_update_20260708.xlsx",
+      "export_interview_calibration.csv (2026-07-17 export)",
+      "export_feedback.csv (2026-07-17 export)"
     ],
     "candidateRows": 29,
-    "feedbackRowsUsed": 5
+    "feedbackRowsUsed": 10
   },
   "candidates": [
     {
@@ -339,22 +341,22 @@ window.TALENT_DATA = {
       "stage": "HR Interview",
       "status": "Active",
       "source": "July 8 live pipeline update",
-      "interview_score": null,
+      "interview_score": 3,
       "risk_level": "Not captured in ATS.",
-      "next_step": "Not captured in ATS.",
+      "next_step": "Take-home should test slide design, quality of content, speed of thinking, and adapting to curveballs; also test handling an ambiguous prompt and adjusting to a change in direction.",
       "last_updated": "2026-07-08",
-      "strength": "Not captured in ATS.",
-      "concern": "Not captured in ATS.",
-      "fit": "Feedback: No",
-      "recommended_next_step": "Not captured in ATS.",
-      "recommendation": "Not captured in ATS.",
+      "strength": "Strong consulting background (Big 4, then a boutique firm) across operating model design and technology transformation. Thoughtful, measured, and clear on her role across the full project lifecycle.",
+      "concern": "AI usage still fairly generic at this stage — not yet demonstrated practically.",
+      "fit": "Rating 3 | Recommend: yes | Feedback: Yes",
+      "recommended_next_step": "yes",
+      "recommendation": "yes",
       "company": "Deloitte, Accenture",
-      "interview_date": "",
-      "interviewers": "",
-      "forms_completed": "0",
-      "forms_expected": "",
+      "interview_date": "2026-07-13 16:00:00",
+      "interviewers": "Sonya Doshi",
+      "forms_completed": "1",
+      "forms_expected": "1",
       "level_fit": "",
-      "red_flag": "Not captured in ATS."
+      "red_flag": "No"
     },
     {
       "id": "gaetano-pannia-ai-transformation-consultant-toronto-toronto",
@@ -366,22 +368,22 @@ window.TALENT_DATA = {
       "stage": "HR Interview",
       "status": "Active",
       "source": "July 8 live pipeline update",
-      "interview_score": null,
+      "interview_score": 2,
       "risk_level": "Not captured in ATS.",
-      "next_step": "Not captured in ATS.",
+      "next_step": "Not moving forward — candidate declined, seeking more challenges.",
       "last_updated": "2026-07-08",
       "strength": "Not captured in ATS.",
-      "concern": "Not captured in ATS.",
-      "fit": "Feedback: No",
-      "recommended_next_step": "Not captured in ATS.",
-      "recommendation": "Not captured in ATS.",
+      "concern": "Candidate is not going to work for us (declined); reason for job search: seeking more challenges.",
+      "fit": "Rating 2 | Recommend: no | Feedback: Yes",
+      "recommended_next_step": "no",
+      "recommendation": "no",
       "company": "IBM",
-      "interview_date": "",
-      "interviewers": "",
-      "forms_completed": "0",
-      "forms_expected": "",
+      "interview_date": "2026-07-10 16:30:00",
+      "interviewers": "Sonya Doshi",
+      "forms_completed": "1",
+      "forms_expected": "1",
       "level_fit": "",
-      "red_flag": "Not captured in ATS."
+      "red_flag": "No"
     },
     {
       "id": "fahad-hafeez-ai-transformation-consultant-toronto-toronto",
@@ -393,22 +395,22 @@ window.TALENT_DATA = {
       "stage": "1st Interview - Take Home Case",
       "status": "Active",
       "source": "July 8 live pipeline update",
-      "interview_score": null,
+      "interview_score": 2,
       "risk_level": "Not captured in ATS.",
-      "next_step": "Not captured in ATS.",
+      "next_step": "Not moving onto the next round — doesn't have the foundations for a management consultant.",
       "last_updated": "2026-07-08",
-      "strength": "Not captured in ATS.",
-      "concern": "Not captured in ATS.",
-      "fit": "Feedback: No",
-      "recommended_next_step": "Not captured in ATS.",
-      "recommendation": "Not captured in ATS.",
+      "strength": "No standout strengths identified in the take-home case.",
+      "concern": "No consulting toolkit — lacks the foundations for a management consultant role.",
+      "fit": "Rating 2 | Recommend: no | Feedback: Yes",
+      "recommended_next_step": "no",
+      "recommendation": "no",
       "company": "Next Generation Manufacturing Canada (NGen Canada)",
       "interview_date": "2026-07-08 17:00:00",
       "interviewers": "Sevinc Caglar",
-      "forms_completed": "0",
+      "forms_completed": "1",
       "forms_expected": "1",
       "level_fit": "",
-      "red_flag": "Not captured in ATS."
+      "red_flag": "No"
     },
     {
       "id": "dhwani-soni-ai-transformation-consultant-toronto-toronto",
@@ -420,22 +422,22 @@ window.TALENT_DATA = {
       "stage": "1st Interview - Take Home Case",
       "status": "Active",
       "source": "July 8 live pipeline update",
-      "interview_score": null,
+      "interview_score": 3,
       "risk_level": "Not captured in ATS.",
-      "next_step": "Not captured in ATS.",
+      "next_step": "MAYBE — test AI skillset and ability to think on her feet live, to confirm business judgement.",
       "last_updated": "2026-07-08",
-      "strength": "Not captured in ATS.",
-      "concern": "Not captured in ATS.",
-      "fit": "Feedback: No",
-      "recommended_next_step": "Not captured in ATS.",
-      "recommendation": "Not captured in ATS.",
+      "strength": "Strong manner and presence; used the ADV format proactively and picked up the case cue without instruction. Structured the deck well (reality/current state, themes, risks/enablers, next steps) and proactively surfaced risks.",
+      "concern": "Themes weren't fully MECE and roadmap recommendations were vague. Some written content read as AI-generated rather than proofed and paraphrased.",
+      "fit": "Rating 3 | Recommend: yes | Feedback: Yes",
+      "recommended_next_step": "yes",
+      "recommendation": "yes",
       "company": "Viva Jewels",
       "interview_date": "2026-07-07 20:00:00",
       "interviewers": "Sevinc Caglar",
-      "forms_completed": "0",
+      "forms_completed": "1",
       "forms_expected": "1",
       "level_fit": "",
-      "red_flag": "Not captured in ATS."
+      "red_flag": "No"
     },
     {
       "id": "annet-shajan-ai-transformation-consultant-toronto-toronto",
@@ -447,22 +449,22 @@ window.TALENT_DATA = {
       "stage": "1st Interview - Take Home Case",
       "status": "Active",
       "source": "July 8 live pipeline update",
-      "interview_score": null,
+      "interview_score": 3,
       "risk_level": "Not captured in ATS.",
-      "next_step": "Not captured in ATS.",
+      "next_step": "Active listening skills. Business judgement & consulting toolkit — check if she can distinguish between levels (strategy vs. ops).",
       "last_updated": "2026-07-08",
-      "strength": "Not captured in ATS.",
-      "concern": "Not captured in ATS.",
-      "fit": "Feedback: No",
-      "recommended_next_step": "Not captured in ATS.",
-      "recommendation": "Not captured in ATS.",
+      "strength": "Had good structure to the case and identified op model components as part of the diagnostic. Answered potential risks correctly: people resistance, scoping and comms being aligned to strategy. Good presence.",
+      "concern": "Talker — needs to listen more actively before jumping into solutioning. Consulting toolkit (pyramid structure, MECE) still developing. Comes across as more ops-focused than strategic.",
+      "fit": "Rating 3 | Recommend: yes | Feedback: Yes",
+      "recommended_next_step": "yes",
+      "recommendation": "yes",
       "company": "Accenture",
-      "interview_date": "2026-07-02 19:00:00",
-      "interviewers": "Nikhil Josh",
-      "forms_completed": "0",
+      "interview_date": "2026-07-09 19:30:00",
+      "interviewers": "Sevinc Caglar",
+      "forms_completed": "1",
       "forms_expected": "1",
       "level_fit": "",
-      "red_flag": "Not captured in ATS."
+      "red_flag": "Minor — listening, comprehension and incorporating feedback into iteration."
     },
     {
       "id": "grzegorz-bie-associate-consultant-warsaw-warsaw",
@@ -1262,67 +1264,67 @@ window.TALENT_DATA = {
       "location": "Toronto",
       "current_stage": "HR Interview",
       "company": "Deloitte, Accenture",
-      "interview_date": "",
-      "latest_feedback_reference": "Not captured in ATS.",
-      "overall_rating": null,
-      "recommendation": "Not captured in ATS.",
-      "red_flag_status": "Not captured in ATS.",
-      "strengths": "Not captured in ATS.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Not captured in ATS.",
-      "stakeholder_summary": "Not captured in ATS.",
-      "suggested_level": "Not captured in ATS.",
+      "interview_date": "2026-07-13 16:00:00",
+      "latest_feedback_reference": "Consultant HR Interview / Sonya Doshi",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "No",
+      "strengths": "Strong consulting background — Big 4 then a ~10-person boutique firm, across operating model design and technology transformation.\nThoughtful, measured, and intentional; listened carefully and answered with structure and detail.\nClear on her role across the full project lifecycle (discovery through implementation) and on fostering client relationships.",
+      "concerns": "AI usage still fairly generic at this stage — willing and capable of building the skill, but not yet demonstrated practically.",
+      "what_to_test_next": "Take-home should test slide design, quality of content, speed of thinking, and ability to adapt to curveballs. She self-rated 7/10 on slide design given her years in consulting. Also test whether she can take an ambiguous prompt, build a client-ready recommendation, and adjust when direction changes.",
+      "stakeholder_summary": "Strong consulting background across operating model design and technology transformation; thoughtful and structured communicator. AI usage still generic — test practical application next.",
+      "suggested_level": "Associate",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Business judgement and independent thinking rated 3; structured problem solving rated 0.",
+          "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Structured problem solving rated 0 despite otherwise strong scores — worth probing further.",
+          "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Active listening rated 4; concise & effective communication rated 3.",
+          "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Motivation, collaborative impact, and self-development all rated 3.",
+          "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Structured communication rated 3.",
+          "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Industry & market judgement and implementation expertise both rated 3.",
+          "source": "latest_export"
         }
       ],
-      "next_step": "Not captured in ATS.",
+      "next_step": "Take-home should test slide design, quality of content, speed of thinking, and adapting to curveballs; also test handling an ambiguous prompt and adjusting to a change in direction.",
       "status": "Active",
       "risk_level": "Not captured in ATS.",
       "source": "July 8 live pipeline update",
       "last_updated": "2026-07-08",
-      "notes": "Not captured in ATS.",
+      "notes": "Tiffany has a strong consulting background, having worked at a Big 4 firm before moving to a smaller boutique consulting firm of around 10 employees. She has experience across operating model design and technology transformation engagements. She came across as thoughtful, measured, and intentional. Her AI usage is still more generic at this stage, but she seemed willing and capable of building this skill.",
       "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
@@ -1335,67 +1337,67 @@ window.TALENT_DATA = {
       "location": "Toronto",
       "current_stage": "HR Interview",
       "company": "IBM",
-      "interview_date": "",
-      "latest_feedback_reference": "Not captured in ATS.",
-      "overall_rating": null,
-      "recommendation": "Not captured in ATS.",
-      "red_flag_status": "Not captured in ATS.",
+      "interview_date": "2026-07-10 16:30:00",
+      "latest_feedback_reference": "Consultant HR Interview (CA/US) / Sonya Doshi",
+      "overall_rating": 2,
+      "recommendation": "no",
+      "red_flag_status": "No",
       "strengths": "Not captured in ATS.",
-      "concerns": "Not captured in ATS.",
+      "concerns": "Not going to work for us (candidate declined). Reason for job search: seeking more challenges.",
       "what_to_test_next": "Not captured in ATS.",
-      "stakeholder_summary": "Not captured in ATS.",
-      "suggested_level": "Not captured in ATS.",
+      "stakeholder_summary": "Candidate is not going to work for us; cited seeking more challenges as the reason for job search.",
+      "suggested_level": "Associate",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Business judgement, independent thinking (AI/tools), and structured problem solving all rated 2.",
+          "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Structured problem solving rated 2; response quality rated 2.",
+          "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Concise/effective communication and active listening both rated 3.",
+          "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Motivation, collaborative impact, and self-development all rated 2.",
+          "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Structured communication rated 2.",
+          "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Industry & market judgement and implementation expertise both rated 2.",
+          "source": "latest_export"
         }
       ],
-      "next_step": "Not captured in ATS.",
+      "next_step": "Not moving forward — candidate declined, seeking more challenges.",
       "status": "Active",
       "risk_level": "Not captured in ATS.",
       "source": "July 8 live pipeline update",
       "last_updated": "2026-07-08",
-      "notes": "Not captured in ATS.",
+      "notes": "Not going to work for us. Reason for job search: seeking more challenges.",
       "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
@@ -1409,66 +1411,66 @@ window.TALENT_DATA = {
       "current_stage": "1st Interview - Take Home Case",
       "company": "Next Generation Manufacturing Canada (NGen Canada)",
       "interview_date": "2026-07-08 17:00:00",
-      "latest_feedback_reference": "1st Interview - Take Home Case / Sevinc Caglar",
-      "overall_rating": null,
-      "recommendation": "Not captured in ATS.",
-      "red_flag_status": "Not captured in ATS.",
-      "strengths": "Not captured in ATS.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Not captured in ATS.",
-      "stakeholder_summary": "Not captured in ATS.",
-      "suggested_level": "Not captured in ATS.",
-      "client_trust": "Not captured in ATS.",
+      "latest_feedback_reference": "Take Home Case PPT Interview / Sevinc Caglar",
+      "overall_rating": 2,
+      "recommendation": "no",
+      "red_flag_status": "No",
+      "strengths": "No standout strengths identified in the take-home case.",
+      "concerns": "No consulting toolkit. Not moving onto the next round — doesn't have the foundations for a management consultant.",
+      "what_to_test_next": "Not moving onto the next round — doesn't have the foundations for a management consultant.",
+      "stakeholder_summary": "No consulting toolkit identified in the case response; does not have the foundations for a management consultant. Not moving onto the next round.",
+      "suggested_level": "Associate",
+      "client_trust": "No",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "No consulting toolkit identified in the case response.",
           "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": null,
-          "note": "",
+          "score": 0,
+          "note": "Effectiveness & impact rated 0; information synthesis: no.",
           "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Attention to detail/UX and relevant client insights both rated 2–3.",
           "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Oral presentation of content rated 2 across sub-criteria.",
           "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "",
+          "note": "Not captured in ATS.",
           "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Written clarity: no; oral presentation rated 2.",
           "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Expertise rated 2; client trust: no.",
           "source": "latest_export"
         }
       ],
-      "next_step": "Not captured in ATS.",
+      "next_step": "Not moving onto the next round — doesn't have the foundations for a management consultant.",
       "status": "Active",
       "risk_level": "Not captured in ATS.",
       "source": "July 8 live pipeline update",
       "last_updated": "2026-07-08",
-      "notes": "Not captured in ATS.",
+      "notes": "No consulting toolkit. Not moving onto the next round, he doesn't have the foundations for a management consultant.",
       "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
@@ -1482,66 +1484,66 @@ window.TALENT_DATA = {
       "current_stage": "1st Interview - Take Home Case",
       "company": "Viva Jewels",
       "interview_date": "2026-07-07 20:00:00",
-      "latest_feedback_reference": "1st Interview - Take Home Case / Sevinc Caglar",
-      "overall_rating": null,
-      "recommendation": "Not captured in ATS.",
-      "red_flag_status": "Not captured in ATS.",
-      "strengths": "Not captured in ATS.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Not captured in ATS.",
-      "stakeholder_summary": "Not captured in ATS.",
-      "suggested_level": "Not captured in ATS.",
-      "client_trust": "Not captured in ATS.",
+      "latest_feedback_reference": "Take Home Case PPT Interview / Sevinc Caglar",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "No",
+      "strengths": "Strong manner and presence; spoke well and used the ADV format proactively (picked up the cue without explicit instruction).\nGood demeanor — took feedback well, asked good questions.\nStructured the deck well: reality/current state, themes, risks/enablers, next steps; proactively surfaced risks and committed to an early recommendation.",
+      "concerns": "Themes weren't fully MECE and grouping lacked a clear prioritization rationale. Roadmap recommendations (Slide 4) were vague on specific initial activities. Some written content read as AI-generated (phrasing/buzzwords) rather than proofed and paraphrased.",
+      "what_to_test_next": "MAYBE — test AI skillset and her ability to think on her feet live, to confirm business judgement.",
+      "stakeholder_summary": "Strong presence and structure (ADV format, storyline headlines); proactively surfaced risks and committed to a recommendation. MAYBE: themes not fully MECE, roadmap vague, and some content read as AI-generated — test live business judgement next.",
+      "suggested_level": "Associate",
+      "client_trust": "Maybe",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Used ADV format proactively; structured deck with reality, themes, risks/enablers, next steps.",
           "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Themes weren't fully MECE; grouping lacked a clear prioritization rationale.",
           "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Speaks well, good demeanor, asked good questions, took feedback well.",
           "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Proactively surfaced risks/enablers and committed to an early recommendation.",
           "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "",
+          "note": "Not captured in ATS.",
           "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Slide 1 set the stage well; attempted storyline-format headlines.",
           "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Roadmap recommendations lacked specific initial-activity detail.",
           "source": "latest_export"
         }
       ],
-      "next_step": "Not captured in ATS.",
+      "next_step": "MAYBE — test AI skillset and her ability to think on her feet live, to confirm business judgement.",
       "status": "Active",
       "risk_level": "Not captured in ATS.",
       "source": "July 8 live pipeline update",
       "last_updated": "2026-07-08",
-      "notes": "Not captured in ATS.",
+      "notes": "Strengths: manner and presence, spoke well, used the ADV format proactively, good demeanor. Structure: slide 1 set the stage, attempted storyline headlines, structured deck (reality, themes, risks/enablers, next steps), proactively surfaced risks. Areas to improve: themes weren't MECE, grouping lacked clear rationale, roadmap recommendations vague. Content originality: some written content read as AI-generated rather than proofed and paraphrased.",
       "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
@@ -1554,67 +1556,67 @@ window.TALENT_DATA = {
       "location": "Toronto",
       "current_stage": "1st Interview - Take Home Case",
       "company": "Accenture",
-      "interview_date": "2026-07-02 19:00:00",
-      "latest_feedback_reference": "1st Interview - Take Home Case / Nikhil Josh",
-      "overall_rating": null,
-      "recommendation": "Not captured in ATS.",
-      "red_flag_status": "Not captured in ATS.",
-      "strengths": "Not captured in ATS.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Not captured in ATS.",
-      "stakeholder_summary": "Not captured in ATS.",
-      "suggested_level": "Not captured in ATS.",
-      "client_trust": "Not captured in ATS.",
+      "interview_date": "2026-07-09 19:30:00",
+      "latest_feedback_reference": "Take Home Case PPT Interview / Sevinc Caglar",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "Minor — listening, comprehension and incorporating feedback into iteration.",
+      "strengths": "Had good structure to the case and identified op model components as part of the diagnostic.\nAnswered potential risks correctly: people resistance, scoping and comms being aligned to strategy.\nGood presence.",
+      "concerns": "Talker — needs to listen more actively before jumping into solutioning and answering the questions.\nNeeds to build the consulting toolkit more (pyramid structure, MECE etc.) — quite ops-focused rather than strategic.",
+      "what_to_test_next": "Active listening skills. Business judgement & consulting toolkit (comes across as operational/tactical — test whether she can distinguish between levels: strategy to ops).",
+      "stakeholder_summary": "Good structure and presence on the case; correctly identified op model components and key risks, but is quite ops-focused and needs to build out the consulting toolkit (pyramid structure, MECE).",
+      "suggested_level": "Associate",
+      "client_trust": "Maybe",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Good structure and frameworks (used ADV-style diagnostic), but toolkit (pyramid/MECE) still developing; quite ops-focused.",
           "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Correctly identified op model components and key risks (people resistance, scoping, comms alignment).",
           "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Good presence and demeanor; asked good questions.",
           "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Active listening / incorporating feedback rated 2 of 3 — needs to listen before solutioning.",
           "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "",
+          "note": "Not captured in ATS.",
           "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Structured, logical answers; written clarity: yes.",
           "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Industry & market judgement rated 0; implementation-focused expertise rated 3.",
           "source": "latest_export"
         }
       ],
-      "next_step": "Not captured in ATS.",
+      "next_step": "Active listening skills. Business judgement & consulting toolkit — check if she can distinguish between levels (strategy vs. ops).",
       "status": "Active",
       "risk_level": "Not captured in ATS.",
       "source": "July 8 live pipeline update",
       "last_updated": "2026-07-08",
-      "notes": "Not captured in ATS.",
+      "notes": "Had good structure to the case and identified op model components as part of the diagnostic. Answered potential risks correctly: people resistance, scoping and comms being aligned to strategy. Good presence. Improvement: talker, needs to listen more actively before jumping into solutioning and answering the questions; needs to build the consulting toolkit more (pyramid structure, MECE etc). She is quite ops focused.",
       "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     {
@@ -3381,67 +3383,67 @@ window.TALENT_DATA = {
       "location": "Toronto",
       "current_stage": "HR Interview",
       "company": "Deloitte, Accenture",
-      "interview_date": "",
-      "latest_feedback_reference": "Not captured in ATS.",
-      "overall_rating": null,
-      "recommendation": "Not captured in ATS.",
-      "red_flag_status": "Not captured in ATS.",
-      "strengths": "Not captured in ATS.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Not captured in ATS.",
-      "stakeholder_summary": "Not captured in ATS.",
-      "suggested_level": "Not captured in ATS.",
+      "interview_date": "2026-07-13 16:00:00",
+      "latest_feedback_reference": "Consultant HR Interview / Sonya Doshi",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "No",
+      "strengths": "Strong consulting background — Big 4 then a ~10-person boutique firm, across operating model design and technology transformation.\nThoughtful, measured, and intentional; listened carefully and answered with structure and detail.\nClear on her role across the full project lifecycle (discovery through implementation) and on fostering client relationships.",
+      "concerns": "AI usage still fairly generic at this stage — willing and capable of building the skill, but not yet demonstrated practically.",
+      "what_to_test_next": "Take-home should test slide design, quality of content, speed of thinking, and ability to adapt to curveballs. She self-rated 7/10 on slide design given her years in consulting. Also test whether she can take an ambiguous prompt, build a client-ready recommendation, and adjust when direction changes.",
+      "stakeholder_summary": "Strong consulting background across operating model design and technology transformation; thoughtful and structured communicator. AI usage still generic — test practical application next.",
+      "suggested_level": "Associate",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Business judgement and independent thinking rated 3; structured problem solving rated 0.",
+          "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Structured problem solving rated 0 despite otherwise strong scores — worth probing further.",
+          "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Active listening rated 4; concise & effective communication rated 3.",
+          "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Motivation, collaborative impact, and self-development all rated 3.",
+          "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Structured communication rated 3.",
+          "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Industry & market judgement and implementation expertise both rated 3.",
+          "source": "latest_export"
         }
       ],
-      "next_step": "Not captured in ATS.",
+      "next_step": "Take-home should test slide design, quality of content, speed of thinking, and adapting to curveballs; also test handling an ambiguous prompt and adjusting to a change in direction.",
       "status": "Active",
       "risk_level": "Not captured in ATS.",
       "source": "July 8 live pipeline update",
       "last_updated": "2026-07-08",
-      "notes": "Not captured in ATS.",
+      "notes": "Tiffany has a strong consulting background, having worked at a Big 4 firm before moving to a smaller boutique consulting firm of around 10 employees. She has experience across operating model design and technology transformation engagements. She came across as thoughtful, measured, and intentional. Her AI usage is still more generic at this stage, but she seemed willing and capable of building this skill.",
       "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     "Gaetano Pannia": {
@@ -3454,67 +3456,67 @@ window.TALENT_DATA = {
       "location": "Toronto",
       "current_stage": "HR Interview",
       "company": "IBM",
-      "interview_date": "",
-      "latest_feedback_reference": "Not captured in ATS.",
-      "overall_rating": null,
-      "recommendation": "Not captured in ATS.",
-      "red_flag_status": "Not captured in ATS.",
+      "interview_date": "2026-07-10 16:30:00",
+      "latest_feedback_reference": "Consultant HR Interview (CA/US) / Sonya Doshi",
+      "overall_rating": 2,
+      "recommendation": "no",
+      "red_flag_status": "No",
       "strengths": "Not captured in ATS.",
-      "concerns": "Not captured in ATS.",
+      "concerns": "Not going to work for us (candidate declined). Reason for job search: seeking more challenges.",
       "what_to_test_next": "Not captured in ATS.",
-      "stakeholder_summary": "Not captured in ATS.",
-      "suggested_level": "Not captured in ATS.",
+      "stakeholder_summary": "Candidate is not going to work for us; cited seeking more challenges as the reason for job search.",
+      "suggested_level": "Associate",
       "client_trust": "Not captured in ATS.",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Business judgement, independent thinking (AI/tools), and structured problem solving all rated 2.",
+          "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Structured problem solving rated 2; response quality rated 2.",
+          "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 3,
+          "note": "Concise/effective communication and active listening both rated 3.",
+          "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Motivation, collaborative impact, and self-development all rated 2.",
+          "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
           "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Structured communication rated 2.",
+          "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "Not captured in ATS.",
-          "source": "July 8 pipeline update"
+          "score": 2,
+          "note": "Industry & market judgement and implementation expertise both rated 2.",
+          "source": "latest_export"
         }
       ],
-      "next_step": "Not captured in ATS.",
+      "next_step": "Not moving forward — candidate declined, seeking more challenges.",
       "status": "Active",
       "risk_level": "Not captured in ATS.",
       "source": "July 8 live pipeline update",
       "last_updated": "2026-07-08",
-      "notes": "Not captured in ATS.",
+      "notes": "Not going to work for us. Reason for job search: seeking more challenges.",
       "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     "Fahad Hafeez": {
@@ -3528,66 +3530,66 @@ window.TALENT_DATA = {
       "current_stage": "1st Interview - Take Home Case",
       "company": "Next Generation Manufacturing Canada (NGen Canada)",
       "interview_date": "2026-07-08 17:00:00",
-      "latest_feedback_reference": "1st Interview - Take Home Case / Sevinc Caglar",
-      "overall_rating": null,
-      "recommendation": "Not captured in ATS.",
-      "red_flag_status": "Not captured in ATS.",
-      "strengths": "Not captured in ATS.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Not captured in ATS.",
-      "stakeholder_summary": "Not captured in ATS.",
-      "suggested_level": "Not captured in ATS.",
-      "client_trust": "Not captured in ATS.",
+      "latest_feedback_reference": "Take Home Case PPT Interview / Sevinc Caglar",
+      "overall_rating": 2,
+      "recommendation": "no",
+      "red_flag_status": "No",
+      "strengths": "No standout strengths identified in the take-home case.",
+      "concerns": "No consulting toolkit. Not moving onto the next round — doesn't have the foundations for a management consultant.",
+      "what_to_test_next": "Not moving onto the next round — doesn't have the foundations for a management consultant.",
+      "stakeholder_summary": "No consulting toolkit identified in the case response; does not have the foundations for a management consultant. Not moving onto the next round.",
+      "suggested_level": "Associate",
+      "client_trust": "No",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "No consulting toolkit identified in the case response.",
           "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": null,
-          "note": "",
+          "score": 0,
+          "note": "Effectiveness & impact rated 0; information synthesis: no.",
           "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Attention to detail/UX and relevant client insights both rated 2–3.",
           "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Oral presentation of content rated 2 across sub-criteria.",
           "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "",
+          "note": "Not captured in ATS.",
           "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Written clarity: no; oral presentation rated 2.",
           "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Expertise rated 2; client trust: no.",
           "source": "latest_export"
         }
       ],
-      "next_step": "Not captured in ATS.",
+      "next_step": "Not moving onto the next round — doesn't have the foundations for a management consultant.",
       "status": "Active",
       "risk_level": "Not captured in ATS.",
       "source": "July 8 live pipeline update",
       "last_updated": "2026-07-08",
-      "notes": "Not captured in ATS.",
+      "notes": "No consulting toolkit. Not moving onto the next round, he doesn't have the foundations for a management consultant.",
       "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     "Dhwani Soni": {
@@ -3601,66 +3603,66 @@ window.TALENT_DATA = {
       "current_stage": "1st Interview - Take Home Case",
       "company": "Viva Jewels",
       "interview_date": "2026-07-07 20:00:00",
-      "latest_feedback_reference": "1st Interview - Take Home Case / Sevinc Caglar",
-      "overall_rating": null,
-      "recommendation": "Not captured in ATS.",
-      "red_flag_status": "Not captured in ATS.",
-      "strengths": "Not captured in ATS.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Not captured in ATS.",
-      "stakeholder_summary": "Not captured in ATS.",
-      "suggested_level": "Not captured in ATS.",
-      "client_trust": "Not captured in ATS.",
+      "latest_feedback_reference": "Take Home Case PPT Interview / Sevinc Caglar",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "No",
+      "strengths": "Strong manner and presence; spoke well and used the ADV format proactively (picked up the cue without explicit instruction).\nGood demeanor — took feedback well, asked good questions.\nStructured the deck well: reality/current state, themes, risks/enablers, next steps; proactively surfaced risks and committed to an early recommendation.",
+      "concerns": "Themes weren't fully MECE and grouping lacked a clear prioritization rationale. Roadmap recommendations (Slide 4) were vague on specific initial activities. Some written content read as AI-generated (phrasing/buzzwords) rather than proofed and paraphrased.",
+      "what_to_test_next": "MAYBE — test AI skillset and her ability to think on her feet live, to confirm business judgement.",
+      "stakeholder_summary": "Strong presence and structure (ADV format, storyline headlines); proactively surfaced risks and committed to a recommendation. MAYBE: themes not fully MECE, roadmap vague, and some content read as AI-generated — test live business judgement next.",
+      "suggested_level": "Associate",
+      "client_trust": "Maybe",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Used ADV format proactively; structured deck with reality, themes, risks/enablers, next steps.",
           "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Themes weren't fully MECE; grouping lacked a clear prioritization rationale.",
           "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Speaks well, good demeanor, asked good questions, took feedback well.",
           "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Proactively surfaced risks/enablers and committed to an early recommendation.",
           "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "",
+          "note": "Not captured in ATS.",
           "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Slide 1 set the stage well; attempted storyline-format headlines.",
           "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Roadmap recommendations lacked specific initial-activity detail.",
           "source": "latest_export"
         }
       ],
-      "next_step": "Not captured in ATS.",
+      "next_step": "MAYBE — test AI skillset and her ability to think on her feet live, to confirm business judgement.",
       "status": "Active",
       "risk_level": "Not captured in ATS.",
       "source": "July 8 live pipeline update",
       "last_updated": "2026-07-08",
-      "notes": "Not captured in ATS.",
+      "notes": "Strengths: manner and presence, spoke well, used the ADV format proactively, good demeanor. Structure: slide 1 set the stage, attempted storyline headlines, structured deck (reality, themes, risks/enablers, next steps), proactively surfaced risks. Areas to improve: themes weren't MECE, grouping lacked clear rationale, roadmap recommendations vague. Content originality: some written content read as AI-generated rather than proofed and paraphrased.",
       "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     "Annet Shajan": {
@@ -3673,67 +3675,67 @@ window.TALENT_DATA = {
       "location": "Toronto",
       "current_stage": "1st Interview - Take Home Case",
       "company": "Accenture",
-      "interview_date": "2026-07-02 19:00:00",
-      "latest_feedback_reference": "1st Interview - Take Home Case / Nikhil Josh",
-      "overall_rating": null,
-      "recommendation": "Not captured in ATS.",
-      "red_flag_status": "Not captured in ATS.",
-      "strengths": "Not captured in ATS.",
-      "concerns": "Not captured in ATS.",
-      "what_to_test_next": "Not captured in ATS.",
-      "stakeholder_summary": "Not captured in ATS.",
-      "suggested_level": "Not captured in ATS.",
-      "client_trust": "Not captured in ATS.",
+      "interview_date": "2026-07-09 19:30:00",
+      "latest_feedback_reference": "Take Home Case PPT Interview / Sevinc Caglar",
+      "overall_rating": 3,
+      "recommendation": "yes",
+      "red_flag_status": "Minor — listening, comprehension and incorporating feedback into iteration.",
+      "strengths": "Had good structure to the case and identified op model components as part of the diagnostic.\nAnswered potential risks correctly: people resistance, scoping and comms being aligned to strategy.\nGood presence.",
+      "concerns": "Talker — needs to listen more actively before jumping into solutioning and answering the questions.\nNeeds to build the consulting toolkit more (pyramid structure, MECE etc.) — quite ops-focused rather than strategic.",
+      "what_to_test_next": "Active listening skills. Business judgement & consulting toolkit (comes across as operational/tactical — test whether she can distinguish between levels: strategy to ops).",
+      "stakeholder_summary": "Good structure and presence on the case; correctly identified op model components and key risks, but is quite ops-focused and needs to build out the consulting toolkit (pyramid structure, MECE).",
+      "suggested_level": "Associate",
+      "client_trust": "Maybe",
       "scorecard": [
         {
           "criteria": "consulting mindset",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Good structure and frameworks (used ADV-style diagnostic), but toolkit (pyramid/MECE) still developing; quite ops-focused.",
           "source": "latest_export"
         },
         {
           "criteria": "problem solving",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Correctly identified op model components and key risks (people resistance, scoping, comms alignment).",
           "source": "latest_export"
         },
         {
           "criteria": "client presence",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Good presence and demeanor; asked good questions.",
           "source": "latest_export"
         },
         {
           "criteria": "adaptability",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Active listening / incorporating feedback rated 2 of 3 — needs to listen before solutioning.",
           "source": "latest_export"
         },
         {
           "criteria": "leadership",
           "score": null,
-          "note": "",
+          "note": "Not captured in ATS.",
           "source": "latest_export"
         },
         {
           "criteria": "communication",
-          "score": null,
-          "note": "",
+          "score": 3,
+          "note": "Structured, logical answers; written clarity: yes.",
           "source": "latest_export"
         },
         {
           "criteria": "commercial awareness",
-          "score": null,
-          "note": "",
+          "score": 2,
+          "note": "Industry & market judgement rated 0; implementation-focused expertise rated 3.",
           "source": "latest_export"
         }
       ],
-      "next_step": "Not captured in ATS.",
+      "next_step": "Active listening skills. Business judgement & consulting toolkit — check if she can distinguish between levels (strategy vs. ops).",
       "status": "Active",
       "risk_level": "Not captured in ATS.",
       "source": "July 8 live pipeline update",
       "last_updated": "2026-07-08",
-      "notes": "Not captured in ATS.",
+      "notes": "Had good structure to the case and identified op model components as part of the diagnostic. Answered potential risks correctly: people resistance, scoping and comms being aligned to strategy. Good presence. Improvement: talker, needs to listen more actively before jumping into solutioning and answering the questions; needs to build the consulting toolkit more (pyramid structure, MECE etc). She is quite ops focused.",
       "disclaimer": "AI structures assessment; final hiring decision remains our human team."
     },
     "Grzegorz Bień": {
