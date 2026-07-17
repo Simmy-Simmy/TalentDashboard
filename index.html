@@ -76,6 +76,7 @@
     <nav class="tabs" role="tablist" aria-label="Dashboard tabs">
       <button id="talent-tab" class="tab" type="button" role="tab" aria-selected="true" aria-controls="talent-panel" data-tab="talent-panel">Talent Dashboard</button>
       <button id="role-tab" class="tab" type="button" role="tab" aria-selected="false" aria-controls="role-panel" data-tab="role-panel">Role Assessment</button>
+      <button id="calibration-tab" class="tab" type="button" role="tab" aria-selected="false" aria-controls="calibration-panel" data-tab="calibration-panel">Interview Calibration</button>
     </nav>
 
     <section id="talent-panel" class="panel active" role="tabpanel" aria-labelledby="talent-tab">
@@ -311,6 +312,110 @@
           </div>
         </div>
       </article>
+    </section>
+
+    <!-- ============================================================
+         INTERVIEW CALIBRATION — initial calibration view.
+         Source: "Dashboard Import" sheet. Static content, values are
+         pre-computed per agreed calibration rules (see data-quality
+         note at the end of this panel). Not wired to app.js state.
+         ============================================================ -->
+    <section id="calibration-panel" class="panel" role="tabpanel" aria-labelledby="calibration-tab">
+      <div class="section">
+        <div>
+          <h2 class="title">Interview Calibration</h2>
+          <p class="section-sub">Initial calibration view. Final-stage feedback quality and decision consistency.</p>
+        </div>
+        <span class="pill pill--yellow">UK + Poland | Past 90 days</span>
+      </div>
+
+      <div class="grid-2">
+        <article class="card block">
+          <div class="head">
+            <div><h3>Final Feedback Completion Rate</h3></div>
+            <span class="pill pill--purple">Final interviews</span>
+          </div>
+          <div class="body">
+            <div class="metric" style="max-width:220px;">
+              <div class="kpi">Completion rate</div>
+              <div class="val">25%</div>
+            </div>
+            <p class="tiny">1 completed final scorecard out of 4 completed final interviews. Grzegorz Bień is pending (final interview rescheduled to Monday, 20 July 2026) and is excluded from this count until the interview occurs.</p>
+          </div>
+        </article>
+
+        <article class="card block">
+          <div class="head">
+            <div><h3>Candidates Progressing with Unresolved Concerns</h3></div>
+            <span class="pill pill--purple">Decision consistency</span>
+          </div>
+          <div class="body">
+            <div class="metric" style="max-width:220px;">
+              <div class="kpi">Candidates</div>
+              <div class="val">1</div>
+            </div>
+            <p class="tiny">One candidate progressed despite an unresolved material concern. Example: Neha Jaiswal progressed through a proposed re-level despite an Overall Rating of 2 and a client-readiness answer of "No".</p>
+          </div>
+        </article>
+      </div>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Late-Stage Rejection Reasons</h3></div>
+          <span class="pill pill--yellow">Small sample — not a trend</span>
+        </div>
+        <div class="body">
+          <div class="decision-tags">
+            <span class="decision-tag">Culture and team fit</span>
+            <span class="decision-tag">Active listening and client leadership</span>
+            <span class="decision-tag">Collaboration</span>
+          </div>
+          <p class="why">Explicit rejection reason not captured in ATS.</p>
+          <p class="tiny">The completed final-stage sample is small, so this is not presented as a broad trend.</p>
+        </div>
+      </article>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Stage Where the Main Risk Was First Identified</h3></div>
+          <span class="pill pill--purple">7 cases reviewed</span>
+        </div>
+        <div class="body">
+          <div class="stage-row">
+            <div class="stage-label">1st case</div>
+            <div class="bar"><div class="fill" style="width:100%"></div></div>
+            <div class="stage-count">5 of 7</div>
+          </div>
+          <div class="stage-row">
+            <div class="stage-label">2nd case</div>
+            <div class="bar"><div class="fill" style="width:20%"></div></div>
+            <div class="stage-count">1 of 7</div>
+          </div>
+          <div class="stage-row">
+            <div class="stage-label">Final</div>
+            <div class="bar"><div class="fill" style="width:20%"></div></div>
+            <div class="stage-count">1 of 7</div>
+          </div>
+          <p class="why">Most material risks were first identified during the first case interview.</p>
+        </div>
+      </article>
+
+      <article class="card block">
+        <div class="head">
+          <div><h3>Actions Required</h3></div>
+        </div>
+        <div class="body">
+          <div class="insight-list">
+            <div class="insight-item">1. Agree the minimum hiring bar by level for structure, communication, commercial judgement, client readiness and culture/team fit</div>
+            <div class="insight-item">2. Confirm which interview stage owns each competency</div>
+            <div class="insight-item">3. For every "Yes with concern", record the concern, why the candidate should progress, what the next round must test and the minimum pass evidence</div>
+            <div class="insight-item">4. Treat unresolved structure, commercial judgement and client-readiness concerns as decision gates</div>
+            <div class="insight-item">5. Complete a final scorecard and clear decision reason after every completed final interview</div>
+          </div>
+        </div>
+      </article>
+
+      <p class="tiny">Data quality note: repeated final-interview records in the ATS represent reschedules of the same interview, not additional interviews, so each candidate is counted once by unique final interview. Grzegorz Bień's final interview was rescheduled to Monday, 20 July 2026 and is excluded from the completed-final denominator until it occurs.</p>
     </section>
 
     <p class="footer">Internal working dashboard. Clean workbook import. ATS data only.</p>
